@@ -1,0 +1,262 @@
+/* Styling Get a Quote Form   */
+#gform_wrapper_1 {
+	form {
+		@apply lg:flex items-baseline pb-5 flex-col;
+
+
+	}
+	.gform_body{
+		flex-grow:1;
+	}
+	.gform_body, .gform_footer {
+		@apply flex items-center py-0 mx-auto;
+	}
+	 /* .gform_button{
+		@apply w-full lg:w-auto text-white m-0 bg-transparent p-4 font-sans  hover:bg-primary  cursor-pointer text-2xl tracking-wide  px-10 rounded-full font-normal;
+	} */
+	.gform_validation_errors{
+		display:none;
+	}
+
+}
+
+#gform_1,#gform_2,#gform_3,#gform_4,#gform_5{
+	input, select, textarea{
+		@apply bg-transparent text-xl font-medium mt-2 transition-all bg-grey;
+		&::placeholder{
+			@apply text-dark font-light text-lg;
+		}
+		&:focus, &:focus-within, &:focus-visible {
+			@apply border-secondary;
+			outline: solid $secondary 1px;
+			&:hover {
+				@apply border-primary;
+			}
+		}
+		&:hover {
+			@apply border-secondary;
+		}
+	}
+	select option{
+		@apply text-black;
+	}
+	legend {
+		@apply text-base tracking-widest font-normal;
+		&:focus, &:focus-within, &:focus-visible {
+			@apply border-primary text-primary;
+			outline: solid $primary 1px;
+		}
+
+	 }
+	label {
+		@apply text-base tracking-widest font-normal;
+		&:focus, &:focus-within, &:focus-visible {
+			@apply border-primary text-primary;
+			outline: solid $primary 1px;
+		}
+	 }
+	.ginput_complex {
+		label, legend {
+			@apply text-base;
+		}
+	}
+	.gform_button{
+		@apply w-full lg:w-auto text-white m-0 bg-primary font-sans hover:bg-primarydark cursor-pointer text-2xl tracking-wide px-12 py-2 text-xl rounded-full;
+		
+		&:hover {
+			@apply bg-gradient-to-r from-primary to-primary !important;
+		}
+	}
+	.ginput_container_consent{
+		@apply text-center text-lg lg:px-32  pt-8;
+	}
+	 .gfield_validation_message,   .validation_message {
+		@apply bg-transparent border-0 p-0 m-0 text-base;
+		color:#FF4043;
+	}
+	.gform_validation_errors {
+		@apply bg-transparent;
+	}
+	.gfield_required {
+		&:after {
+			display:block;
+			width:10px;
+			height:10px;
+			content: "*";
+			font-size:12px;
+			color:inherit;
+			margin-left:5px;
+		}
+	}
+	.gfield_required span {
+		display:none;
+	}
+	.gform_submission_error {
+		@apply mb-0;
+	}
+	.gform_footer{
+		@apply text-center pt-8 mx-auto;
+	}
+	input[type="radio"] {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		-webkit-print-color-adjust: exact;
+		color-adjust: exact;
+		display: inline-block;
+		vertical-align: middle;
+		background-origin: border-box;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		flex-shrink: 0;
+		/* border-radius: 4px; */
+		height: 1.3rem;
+		width: 1.3rem;
+		color: transparent;
+		background-color: transparent;
+		border-color: rgba(255,255,255,.3);
+		border-width: 1px;
+		@apply transition-all;
+		@apply mt-0 py-0;
+		&:hover, &:focus {
+			@apply border-white;
+		}
+	}
+	input[type="radio"]:after {
+		background-color: transparent;
+		/* border-radius: 14px; */
+		content: '';
+		display: block;
+		height: .8rem;
+		left: 3px;
+		position: relative;
+		top: 3px;
+		width: .8rem;
+	 }
+	 input[type="radio"]:checked:after {
+		@apply bg-primary;
+	 }
+	.gfield_radio {
+		@apply flex  flex-wrap  ;
+		 label {
+			@apply ml-2  text-lg capitalize tracking-normal font-normal;
+		}
+		.gchoice {
+			@apply flex items-center;
+			@media screen and (min-width:640px){
+				width: calc(100% * (2/4) - 10px - 1px);
+			}
+			@media screen and (min-width:1200px){
+				width: calc(100% * (1/4) - 10px - 1px);
+			}
+			display:inline-block;
+			@apply  mt-2 sm:mt-0;
+
+		}
+	}
+	input[type="checkbox"] {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		-webkit-print-color-adjust: exact;
+		color-adjust: exact;
+		display: inline-block;
+		vertical-align: middle;
+		background-origin: border-box;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		flex-shrink: 0;
+		/* border-radius: 4px; */
+		height: 1.3rem;
+		width: 1.3rem;
+		color: transparent;
+		@apply bg-secondary;
+		/* border-radius: 20px; */
+		border-color: rgba(255,255,255,.3);
+		border-width: 1px;
+		@apply mt-0 py-0 transition-all;
+		&:hover, &:focus {
+			@apply border-white;
+		}
+	}
+	input[type="checkbox"]:after {
+		background-color: transparent;
+		border-radius: 14px;
+		content: '';
+		display: block;
+		height: .8rem;
+		left: 3px;
+		position: relative;
+		top: 3px;
+		width: .8rem;
+	 }
+	 input[type="checkbox"]:checked:after {
+		@apply bg-primary;
+	 }
+	.gfield_checkbox {
+		@apply flex flex-col flex-wrap md:flex-row ;
+		 label {
+			@apply ml-2   text-lg capitalize tracking-normal font-normal;
+		}
+		.gchoice {
+			@apply flex items-center;
+
+			display:inline-block;
+			@apply  mt-2 mb-3 sm:mt-0;
+			@media screen and (min-width:640px){
+				width: calc(100% * (2/4) - 10px - 1px);
+			}
+			@media screen and (min-width:1200px){
+				width: calc(100% * (1/4) - 10px - 1px);
+			}
+		}
+	}
+}
+
+.form-bg {
+	@apply bg-dark border-t-8 border-primary shadow-xl;
+ 
+}
+
+.gfield_error .ginput_container{
+	position:relative;
+	&:after {
+		position:absolute;
+		right:-30px;;
+		top:30px;
+		width:21px;
+		height:21px;
+		transition:all .2s ease-in-out;
+		background-image: url("data:image/svg+xml,%3Csvg width='17' height='17' viewBox='0 0 17 17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8.5 16.5C12.9183 16.5 16.5 12.9183 16.5 8.5C16.5 4.08172 12.9183 0.5 8.5 0.5C4.08172 0.5 0.5 4.08172 0.5 8.5C0.5 12.9183 4.08172 16.5 8.5 16.5ZM7.33783 4.04541H9.65992L9.44756 10.6054H7.55019L7.33783 4.04541ZM9.70147 12.4335C9.69223 13.0983 9.13364 13.6338 8.50118 13.6338C7.83641 13.6338 7.29166 13.0983 7.3009 12.4335C7.29166 11.778 7.83641 11.2471 8.50118 11.2471C9.13364 11.2471 9.69223 11.778 9.70147 12.4335Z' fill='%23FF4043'/%3E%3C/svg%3E%0A");
+		background-repeat: no-repeat;
+		content:'';
+		pointer-events: none;
+	}
+}
+
+.post-search-tools {
+	@apply hidden lg:flex;
+	input, select, .options-select {
+		&:focus, &:focus-within, &:focus-visible  {
+			 outline: solid $primary 1px;
+			&:hover {
+				@apply border-primary;
+			}
+		}
+		&:hover {
+			@apply border-primary;
+		}
+	}
+}
+
+.gfield-choice-input {
+	@apply bg-grey rounded-full !important;
+	
+	&:after {
+		@apply rounded-full !important;
+	}
+}

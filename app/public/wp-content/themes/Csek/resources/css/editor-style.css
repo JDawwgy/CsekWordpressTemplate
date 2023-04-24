@@ -1,0 +1,37 @@
+
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "typography.css";
+@import "custom-blocks.css";
+@import "buttons.css";
+
+body {
+    @apply font-sans;
+}
+
+.wp-block{
+    @apply max-w-screen-xl;
+}
+
+.wp-block[data-align=wide] {
+    @apply max-w-screen-xl;
+}
+
+.wp-block[data-align=full] {
+    @apply max-w-full;
+}
+
+.acf-block-component {
+    margin-bottom:40px;
+}
+
+.block-full-screen-cta {
+    position:relative!important;
+    width:100%!important;
+    overflow:hidden;
+    
+    img {
+        position: static !important;
+        height:unset !important;
+    }
+}

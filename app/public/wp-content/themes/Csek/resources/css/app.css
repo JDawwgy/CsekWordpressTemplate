@@ -1,0 +1,20 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "../../vendors/slick/slick.css";
+@import "../../vendors/slick/slick-theme.css";
+
+@import "custom-base.css";
+@import "navigation.css";
+@import "typography.css";
+@import "buttons.css";
+@import "full-screen-menu.css";
+@import "footer.css";
+@import "custom-blocks.css";
+@import "helpers.css";
+@import "carousels.css";
+@import "forms.css";
+@import "posts.css";
+
+@import "magnific.css";

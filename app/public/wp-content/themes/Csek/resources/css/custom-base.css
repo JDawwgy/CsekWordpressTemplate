@@ -1,0 +1,48 @@
+/* bring traditional SASS variables in for ease of colour access */
+
+$primary: #38d996;
+$secondary: #8264ff;
+$dark: #0a0a23;
+$light: #f2f3f6;
+
+/* needed for some core ACF  or WP change that keeps occurring. */
+.alignfull{
+    @apply my-0;
+}
+
+.entry-content, .block-editor-block-list__layout {
+
+    .alignfull{
+        @apply my-0;
+    }
+
+    .block-padding-bottom{
+        @apply pb-20;
+    }
+    
+    .block-padding-top{
+        @apply pt-20;
+    }
+
+    p, ul, ol {
+        @apply mb-8;
+        a {
+            @apply font-black underline;
+            &:hover {
+                @apply no-underline;
+            }
+        }
+    }
+
+    ul:not(.block-editor-block-variation-picker__variations) {
+        li {
+            @apply list-disc list-inside;
+        }
+    }
+
+    ol {
+        li {
+            @apply list-decimal list-inside;
+        }
+    }
+}

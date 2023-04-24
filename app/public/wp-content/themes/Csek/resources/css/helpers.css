@@ -1,0 +1,12 @@
+/*
+	Class for custom image type "thin-bar
+*/
+.is-style-thin-bar {
+	margin-bottom:0px!important;
+	margin-top:0px!important;
+	
+	img {
+		height: 50vh;
+		object-fit: cover;
+	}
+ }

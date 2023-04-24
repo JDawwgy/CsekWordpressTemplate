@@ -1,0 +1,1339 @@
+[23-Oct-2021 03:26:37 UTC] PHP Warning:  include(/Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/content-mediablock-.php): failed to open stream: No such file or directory in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/media-block.php on line 47
+[23-Oct-2021 03:26:37 UTC] PHP Stack trace:
+[23-Oct-2021 03:26:37 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-admin/admin-ajax.php:0
+[23-Oct-2021 03:26:37 UTC] PHP   2. do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-admin/admin-ajax.php:187
+[23-Oct-2021 03:26:37 UTC] PHP   3. WP_Hook->do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:470
+[23-Oct-2021 03:26:37 UTC] PHP   4. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:327
+[23-Oct-2021 03:26:37 UTC] PHP   5. acf_ajax_fetch_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 03:26:37 UTC] PHP   6. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:597
+[23-Oct-2021 03:26:37 UTC] PHP   7. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 03:26:37 UTC] PHP   8. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 03:26:37 UTC] PHP Warning:  include(): Failed opening '/Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/content-mediablock-.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/media-block.php on line 47
+[23-Oct-2021 03:26:37 UTC] PHP Stack trace:
+[23-Oct-2021 03:26:37 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-admin/admin-ajax.php:0
+[23-Oct-2021 03:26:37 UTC] PHP   2. do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-admin/admin-ajax.php:187
+[23-Oct-2021 03:26:37 UTC] PHP   3. WP_Hook->do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:470
+[23-Oct-2021 03:26:37 UTC] PHP   4. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:327
+[23-Oct-2021 03:26:37 UTC] PHP   5. acf_ajax_fetch_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 03:26:37 UTC] PHP   6. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:597
+[23-Oct-2021 03:26:37 UTC] PHP   7. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 03:26:37 UTC] PHP   8. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 03:33:05 UTC] PHP Parse error:  syntax error, unexpected 'wp_link_pages' (T_STRING) in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/template-parts/content.php on line 23
+[23-Oct-2021 03:56:37 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/media-block.php on line 42
+[23-Oct-2021 04:08:36 UTC] PHP Parse error:  syntax error, unexpected ''anchor'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/inc/acf-blocks.php on line 64
+[23-Oct-2021 04:09:14 UTC] PHP Parse error:  syntax error, unexpected ''anchor'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/inc/acf-blocks.php on line 64
+[23-Oct-2021 04:24:13 UTC] PHP Warning:  include_once(/Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/common-block-layout.php): failed to open stream: No such file or directory in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/text-block.php on line 9
+[23-Oct-2021 04:24:13 UTC] PHP Stack trace:
+[23-Oct-2021 04:24:13 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:24:13 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:24:13 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[23-Oct-2021 04:24:13 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[23-Oct-2021 04:24:13 UTC] PHP   5. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:11
+[23-Oct-2021 04:24:13 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[23-Oct-2021 04:24:13 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 04:24:13 UTC] PHP   8. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[23-Oct-2021 04:24:13 UTC] PHP   9. the_content() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/template-parts/content.php:19
+[23-Oct-2021 04:24:13 UTC] PHP  10. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/post-template.php:253
+[23-Oct-2021 04:24:13 UTC] PHP  11. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:24:13 UTC] PHP  12. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:24:13 UTC] PHP  13. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:24:13 UTC] PHP  14. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:24:13 UTC] PHP  15. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:24:13 UTC] PHP  16. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:24:13 UTC] PHP  17. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:24:13 UTC] PHP  18. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:24:13 UTC] PHP Warning:  include_once(): Failed opening '/Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/common-block-layout.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/text-block.php on line 9
+[23-Oct-2021 04:24:13 UTC] PHP Stack trace:
+[23-Oct-2021 04:24:13 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:24:13 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:24:13 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[23-Oct-2021 04:24:13 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[23-Oct-2021 04:24:13 UTC] PHP   5. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:11
+[23-Oct-2021 04:24:13 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[23-Oct-2021 04:24:13 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 04:24:13 UTC] PHP   8. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[23-Oct-2021 04:24:13 UTC] PHP   9. the_content() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/template-parts/content.php:19
+[23-Oct-2021 04:24:13 UTC] PHP  10. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/post-template.php:253
+[23-Oct-2021 04:24:13 UTC] PHP  11. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:24:13 UTC] PHP  12. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:24:13 UTC] PHP  13. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:24:13 UTC] PHP  14. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:24:13 UTC] PHP  15. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:24:13 UTC] PHP  16. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:24:13 UTC] PHP  17. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:24:13 UTC] PHP  18. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:24:14 UTC] PHP Warning:  include_once(/Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/common-block-layout.php): failed to open stream: No such file or directory in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/media-block.php on line 10
+[23-Oct-2021 04:24:14 UTC] PHP Stack trace:
+[23-Oct-2021 04:24:14 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:24:14 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:24:14 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[23-Oct-2021 04:24:14 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[23-Oct-2021 04:24:14 UTC] PHP   5. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:11
+[23-Oct-2021 04:24:14 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[23-Oct-2021 04:24:14 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 04:24:14 UTC] PHP   8. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[23-Oct-2021 04:24:14 UTC] PHP   9. the_content() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/template-parts/content.php:19
+[23-Oct-2021 04:24:14 UTC] PHP  10. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/post-template.php:253
+[23-Oct-2021 04:24:14 UTC] PHP  11. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:24:14 UTC] PHP  12. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:24:14 UTC] PHP  13. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:24:14 UTC] PHP  14. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:24:14 UTC] PHP  15. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:24:14 UTC] PHP  16. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:24:14 UTC] PHP  17. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:24:14 UTC] PHP  18. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:24:14 UTC] PHP Warning:  include_once(): Failed opening '/Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/common-block-layout.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/media-block.php on line 10
+[23-Oct-2021 04:24:14 UTC] PHP Stack trace:
+[23-Oct-2021 04:24:14 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:24:14 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:24:14 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[23-Oct-2021 04:24:14 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[23-Oct-2021 04:24:14 UTC] PHP   5. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:11
+[23-Oct-2021 04:24:14 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[23-Oct-2021 04:24:14 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 04:24:14 UTC] PHP   8. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[23-Oct-2021 04:24:14 UTC] PHP   9. the_content() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/template-parts/content.php:19
+[23-Oct-2021 04:24:14 UTC] PHP  10. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/post-template.php:253
+[23-Oct-2021 04:24:14 UTC] PHP  11. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:24:14 UTC] PHP  12. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:24:14 UTC] PHP  13. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:24:14 UTC] PHP  14. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:24:14 UTC] PHP  15. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:24:14 UTC] PHP  16. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:24:14 UTC] PHP  17. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:24:14 UTC] PHP  18. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:24:14 UTC] PHP Warning:  include(/Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/content-mediablock-.php): failed to open stream: No such file or directory in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/media-block.php on line 46
+[23-Oct-2021 04:24:14 UTC] PHP Stack trace:
+[23-Oct-2021 04:24:14 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:24:14 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:24:14 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[23-Oct-2021 04:24:14 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[23-Oct-2021 04:24:14 UTC] PHP   5. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:11
+[23-Oct-2021 04:24:14 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[23-Oct-2021 04:24:14 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 04:24:14 UTC] PHP   8. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[23-Oct-2021 04:24:14 UTC] PHP   9. the_content() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/template-parts/content.php:19
+[23-Oct-2021 04:24:14 UTC] PHP  10. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/post-template.php:253
+[23-Oct-2021 04:24:14 UTC] PHP  11. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:24:14 UTC] PHP  12. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:24:14 UTC] PHP  13. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:24:14 UTC] PHP  14. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:24:14 UTC] PHP  15. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:24:14 UTC] PHP  16. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:24:14 UTC] PHP  17. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:24:14 UTC] PHP  18. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:24:14 UTC] PHP Warning:  include(): Failed opening '/Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/content-mediablock-.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/media-block.php on line 46
+[23-Oct-2021 04:24:14 UTC] PHP Stack trace:
+[23-Oct-2021 04:24:14 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:24:14 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:24:14 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[23-Oct-2021 04:24:14 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[23-Oct-2021 04:24:14 UTC] PHP   5. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:11
+[23-Oct-2021 04:24:14 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[23-Oct-2021 04:24:14 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 04:24:14 UTC] PHP   8. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[23-Oct-2021 04:24:14 UTC] PHP   9. the_content() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/template-parts/content.php:19
+[23-Oct-2021 04:24:14 UTC] PHP  10. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/post-template.php:253
+[23-Oct-2021 04:24:14 UTC] PHP  11. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:24:14 UTC] PHP  12. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:24:14 UTC] PHP  13. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:24:14 UTC] PHP  14. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:24:14 UTC] PHP  15. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:24:14 UTC] PHP  16. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:24:14 UTC] PHP  17. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:24:14 UTC] PHP  18. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:24:14 UTC] PHP Warning:  include_once(/Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/common-block-layout.php): failed to open stream: No such file or directory in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/media-block.php on line 10
+[23-Oct-2021 04:24:14 UTC] PHP Stack trace:
+[23-Oct-2021 04:24:14 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:24:14 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:24:14 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[23-Oct-2021 04:24:14 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[23-Oct-2021 04:24:14 UTC] PHP   5. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:11
+[23-Oct-2021 04:24:14 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[23-Oct-2021 04:24:14 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 04:24:14 UTC] PHP   8. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[23-Oct-2021 04:24:14 UTC] PHP   9. the_content() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/template-parts/content.php:19
+[23-Oct-2021 04:24:14 UTC] PHP  10. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/post-template.php:253
+[23-Oct-2021 04:24:14 UTC] PHP  11. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:24:14 UTC] PHP  12. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:24:14 UTC] PHP  13. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:24:14 UTC] PHP  14. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:24:14 UTC] PHP  15. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:24:14 UTC] PHP  16. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:24:14 UTC] PHP  17. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:24:14 UTC] PHP  18. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:24:14 UTC] PHP Warning:  include_once(): Failed opening '/Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/common-block-layout.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/media-block.php on line 10
+[23-Oct-2021 04:24:14 UTC] PHP Stack trace:
+[23-Oct-2021 04:24:14 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:24:14 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:24:14 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[23-Oct-2021 04:24:14 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[23-Oct-2021 04:24:14 UTC] PHP   5. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:11
+[23-Oct-2021 04:24:14 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[23-Oct-2021 04:24:14 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 04:24:14 UTC] PHP   8. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[23-Oct-2021 04:24:14 UTC] PHP   9. the_content() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/template-parts/content.php:19
+[23-Oct-2021 04:24:14 UTC] PHP  10. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/post-template.php:253
+[23-Oct-2021 04:24:14 UTC] PHP  11. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:24:14 UTC] PHP  12. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:24:14 UTC] PHP  13. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:24:14 UTC] PHP  14. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:24:14 UTC] PHP  15. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:24:14 UTC] PHP  16. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:24:14 UTC] PHP  17. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:24:14 UTC] PHP  18. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:24:14 UTC] PHP Warning:  include(/Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/content-mediablock-.php): failed to open stream: No such file or directory in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/media-block.php on line 46
+[23-Oct-2021 04:24:14 UTC] PHP Stack trace:
+[23-Oct-2021 04:24:14 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:24:14 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:24:14 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[23-Oct-2021 04:24:14 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[23-Oct-2021 04:24:14 UTC] PHP   5. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:11
+[23-Oct-2021 04:24:14 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[23-Oct-2021 04:24:14 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 04:24:14 UTC] PHP   8. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[23-Oct-2021 04:24:14 UTC] PHP   9. the_content() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/template-parts/content.php:19
+[23-Oct-2021 04:24:14 UTC] PHP  10. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/post-template.php:253
+[23-Oct-2021 04:24:14 UTC] PHP  11. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:24:14 UTC] PHP  12. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:24:14 UTC] PHP  13. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:24:14 UTC] PHP  14. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:24:14 UTC] PHP  15. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:24:14 UTC] PHP  16. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:24:14 UTC] PHP  17. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:24:14 UTC] PHP  18. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:24:14 UTC] PHP Warning:  include(): Failed opening '/Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/content-mediablock-.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/media-block.php on line 46
+[23-Oct-2021 04:24:14 UTC] PHP Stack trace:
+[23-Oct-2021 04:24:14 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:24:14 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:24:14 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[23-Oct-2021 04:24:14 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[23-Oct-2021 04:24:14 UTC] PHP   5. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:11
+[23-Oct-2021 04:24:14 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[23-Oct-2021 04:24:14 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 04:24:14 UTC] PHP   8. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[23-Oct-2021 04:24:14 UTC] PHP   9. the_content() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/template-parts/content.php:19
+[23-Oct-2021 04:24:14 UTC] PHP  10. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/post-template.php:253
+[23-Oct-2021 04:24:14 UTC] PHP  11. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:24:14 UTC] PHP  12. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:24:14 UTC] PHP  13. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:24:14 UTC] PHP  14. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:24:14 UTC] PHP  15. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:24:14 UTC] PHP  16. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:24:14 UTC] PHP  17. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:24:14 UTC] PHP  18. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:24:29 UTC] PHP Warning:  include_once(/Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/common-block-layout.php): failed to open stream: No such file or directory in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/media-block.php on line 10
+[23-Oct-2021 04:24:29 UTC] PHP Stack trace:
+[23-Oct-2021 04:24:29 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:24:29 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:24:29 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[23-Oct-2021 04:24:29 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[23-Oct-2021 04:24:29 UTC] PHP   5. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:11
+[23-Oct-2021 04:24:29 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[23-Oct-2021 04:24:29 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 04:24:29 UTC] PHP   8. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[23-Oct-2021 04:24:29 UTC] PHP   9. the_content() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/template-parts/content.php:19
+[23-Oct-2021 04:24:29 UTC] PHP  10. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/post-template.php:253
+[23-Oct-2021 04:24:29 UTC] PHP  11. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:24:29 UTC] PHP  12. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:24:29 UTC] PHP  13. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:24:29 UTC] PHP  14. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:24:29 UTC] PHP  15. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:24:29 UTC] PHP  16. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:24:29 UTC] PHP  17. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:24:29 UTC] PHP  18. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:24:29 UTC] PHP Warning:  include_once(): Failed opening '/Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/common-block-layout.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/media-block.php on line 10
+[23-Oct-2021 04:24:29 UTC] PHP Stack trace:
+[23-Oct-2021 04:24:29 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:24:29 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:24:29 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[23-Oct-2021 04:24:29 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[23-Oct-2021 04:24:29 UTC] PHP   5. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:11
+[23-Oct-2021 04:24:29 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[23-Oct-2021 04:24:29 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 04:24:29 UTC] PHP   8. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[23-Oct-2021 04:24:29 UTC] PHP   9. the_content() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/template-parts/content.php:19
+[23-Oct-2021 04:24:29 UTC] PHP  10. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/post-template.php:253
+[23-Oct-2021 04:24:29 UTC] PHP  11. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:24:29 UTC] PHP  12. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:24:29 UTC] PHP  13. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:24:29 UTC] PHP  14. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:24:29 UTC] PHP  15. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:24:29 UTC] PHP  16. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:24:29 UTC] PHP  17. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:24:29 UTC] PHP  18. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:24:29 UTC] PHP Warning:  include(/Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/content-mediablock-.php): failed to open stream: No such file or directory in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/media-block.php on line 46
+[23-Oct-2021 04:24:29 UTC] PHP Stack trace:
+[23-Oct-2021 04:24:29 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:24:29 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:24:29 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[23-Oct-2021 04:24:29 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[23-Oct-2021 04:24:29 UTC] PHP   5. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:11
+[23-Oct-2021 04:24:29 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[23-Oct-2021 04:24:29 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 04:24:29 UTC] PHP   8. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[23-Oct-2021 04:24:29 UTC] PHP   9. the_content() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/template-parts/content.php:19
+[23-Oct-2021 04:24:29 UTC] PHP  10. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/post-template.php:253
+[23-Oct-2021 04:24:29 UTC] PHP  11. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:24:29 UTC] PHP  12. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:24:29 UTC] PHP  13. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:24:29 UTC] PHP  14. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:24:29 UTC] PHP  15. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:24:29 UTC] PHP  16. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:24:29 UTC] PHP  17. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:24:29 UTC] PHP  18. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:24:29 UTC] PHP Warning:  include(): Failed opening '/Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/content-mediablock-.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/media-block.php on line 46
+[23-Oct-2021 04:24:29 UTC] PHP Stack trace:
+[23-Oct-2021 04:24:29 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:24:29 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:24:29 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[23-Oct-2021 04:24:29 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[23-Oct-2021 04:24:29 UTC] PHP   5. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:11
+[23-Oct-2021 04:24:29 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[23-Oct-2021 04:24:29 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 04:24:29 UTC] PHP   8. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[23-Oct-2021 04:24:29 UTC] PHP   9. the_content() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/template-parts/content.php:19
+[23-Oct-2021 04:24:29 UTC] PHP  10. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/post-template.php:253
+[23-Oct-2021 04:24:29 UTC] PHP  11. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:24:29 UTC] PHP  12. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:24:29 UTC] PHP  13. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:24:29 UTC] PHP  14. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:24:29 UTC] PHP  15. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:24:29 UTC] PHP  16. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:24:29 UTC] PHP  17. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:24:29 UTC] PHP  18. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:24:29 UTC] PHP Warning:  include_once(/Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/common-block-layout.php): failed to open stream: No such file or directory in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/media-block.php on line 10
+[23-Oct-2021 04:24:29 UTC] PHP Stack trace:
+[23-Oct-2021 04:24:29 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:24:29 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:24:29 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[23-Oct-2021 04:24:29 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[23-Oct-2021 04:24:29 UTC] PHP   5. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:11
+[23-Oct-2021 04:24:29 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[23-Oct-2021 04:24:29 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 04:24:29 UTC] PHP   8. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[23-Oct-2021 04:24:29 UTC] PHP   9. the_content() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/template-parts/content.php:19
+[23-Oct-2021 04:24:29 UTC] PHP  10. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/post-template.php:253
+[23-Oct-2021 04:24:29 UTC] PHP  11. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:24:29 UTC] PHP  12. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:24:29 UTC] PHP  13. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:24:29 UTC] PHP  14. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:24:29 UTC] PHP  15. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:24:29 UTC] PHP  16. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:24:29 UTC] PHP  17. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:24:29 UTC] PHP  18. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:24:29 UTC] PHP Warning:  include_once(): Failed opening '/Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/common-block-layout.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/media-block.php on line 10
+[23-Oct-2021 04:24:29 UTC] PHP Stack trace:
+[23-Oct-2021 04:24:29 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:24:29 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:24:29 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[23-Oct-2021 04:24:29 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[23-Oct-2021 04:24:29 UTC] PHP   5. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:11
+[23-Oct-2021 04:24:29 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[23-Oct-2021 04:24:29 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 04:24:29 UTC] PHP   8. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[23-Oct-2021 04:24:29 UTC] PHP   9. the_content() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/template-parts/content.php:19
+[23-Oct-2021 04:24:29 UTC] PHP  10. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/post-template.php:253
+[23-Oct-2021 04:24:29 UTC] PHP  11. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:24:29 UTC] PHP  12. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:24:29 UTC] PHP  13. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:24:29 UTC] PHP  14. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:24:29 UTC] PHP  15. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:24:29 UTC] PHP  16. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:24:29 UTC] PHP  17. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:24:29 UTC] PHP  18. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:24:29 UTC] PHP Warning:  include(/Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/content-mediablock-.php): failed to open stream: No such file or directory in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/media-block.php on line 46
+[23-Oct-2021 04:24:29 UTC] PHP Stack trace:
+[23-Oct-2021 04:24:29 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:24:29 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:24:29 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[23-Oct-2021 04:24:29 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[23-Oct-2021 04:24:29 UTC] PHP   5. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:11
+[23-Oct-2021 04:24:29 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[23-Oct-2021 04:24:29 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 04:24:29 UTC] PHP   8. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[23-Oct-2021 04:24:29 UTC] PHP   9. the_content() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/template-parts/content.php:19
+[23-Oct-2021 04:24:29 UTC] PHP  10. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/post-template.php:253
+[23-Oct-2021 04:24:29 UTC] PHP  11. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:24:29 UTC] PHP  12. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:24:29 UTC] PHP  13. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:24:29 UTC] PHP  14. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:24:29 UTC] PHP  15. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:24:29 UTC] PHP  16. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:24:29 UTC] PHP  17. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:24:29 UTC] PHP  18. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:24:29 UTC] PHP Warning:  include(): Failed opening '/Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/content-mediablock-.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/media-block.php on line 46
+[23-Oct-2021 04:24:29 UTC] PHP Stack trace:
+[23-Oct-2021 04:24:29 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:24:29 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:24:29 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[23-Oct-2021 04:24:29 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[23-Oct-2021 04:24:29 UTC] PHP   5. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:11
+[23-Oct-2021 04:24:29 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[23-Oct-2021 04:24:29 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 04:24:29 UTC] PHP   8. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[23-Oct-2021 04:24:29 UTC] PHP   9. the_content() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/template-parts/content.php:19
+[23-Oct-2021 04:24:29 UTC] PHP  10. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/post-template.php:253
+[23-Oct-2021 04:24:29 UTC] PHP  11. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:24:29 UTC] PHP  12. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:24:29 UTC] PHP  13. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:24:29 UTC] PHP  14. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:24:29 UTC] PHP  15. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:24:29 UTC] PHP  16. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:24:29 UTC] PHP  17. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:24:29 UTC] PHP  18. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:24:36 UTC] PHP Warning:  include(/Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/content-mediablock-.php): failed to open stream: No such file or directory in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/media-block.php on line 46
+[23-Oct-2021 04:24:36 UTC] PHP Stack trace:
+[23-Oct-2021 04:24:36 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:24:36 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:24:36 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[23-Oct-2021 04:24:36 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[23-Oct-2021 04:24:36 UTC] PHP   5. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:11
+[23-Oct-2021 04:24:36 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[23-Oct-2021 04:24:36 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 04:24:36 UTC] PHP   8. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[23-Oct-2021 04:24:36 UTC] PHP   9. the_content() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/template-parts/content.php:19
+[23-Oct-2021 04:24:36 UTC] PHP  10. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/post-template.php:253
+[23-Oct-2021 04:24:36 UTC] PHP  11. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:24:36 UTC] PHP  12. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:24:36 UTC] PHP  13. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:24:36 UTC] PHP  14. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:24:36 UTC] PHP  15. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:24:36 UTC] PHP  16. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:24:36 UTC] PHP  17. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:24:36 UTC] PHP  18. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:24:36 UTC] PHP Warning:  include(): Failed opening '/Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/content-mediablock-.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/media-block.php on line 46
+[23-Oct-2021 04:24:36 UTC] PHP Stack trace:
+[23-Oct-2021 04:24:36 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:24:36 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:24:36 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[23-Oct-2021 04:24:36 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[23-Oct-2021 04:24:36 UTC] PHP   5. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:11
+[23-Oct-2021 04:24:36 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[23-Oct-2021 04:24:36 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 04:24:36 UTC] PHP   8. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[23-Oct-2021 04:24:36 UTC] PHP   9. the_content() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/template-parts/content.php:19
+[23-Oct-2021 04:24:36 UTC] PHP  10. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/post-template.php:253
+[23-Oct-2021 04:24:36 UTC] PHP  11. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:24:36 UTC] PHP  12. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:24:36 UTC] PHP  13. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:24:36 UTC] PHP  14. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:24:36 UTC] PHP  15. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:24:36 UTC] PHP  16. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:24:36 UTC] PHP  17. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:24:36 UTC] PHP  18. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:24:36 UTC] PHP Warning:  include(/Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/content-mediablock-.php): failed to open stream: No such file or directory in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/media-block.php on line 46
+[23-Oct-2021 04:24:36 UTC] PHP Stack trace:
+[23-Oct-2021 04:24:36 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:24:36 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:24:36 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[23-Oct-2021 04:24:36 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[23-Oct-2021 04:24:36 UTC] PHP   5. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:11
+[23-Oct-2021 04:24:36 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[23-Oct-2021 04:24:36 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 04:24:36 UTC] PHP   8. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[23-Oct-2021 04:24:36 UTC] PHP   9. the_content() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/template-parts/content.php:19
+[23-Oct-2021 04:24:36 UTC] PHP  10. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/post-template.php:253
+[23-Oct-2021 04:24:36 UTC] PHP  11. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:24:36 UTC] PHP  12. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:24:36 UTC] PHP  13. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:24:36 UTC] PHP  14. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:24:36 UTC] PHP  15. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:24:36 UTC] PHP  16. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:24:36 UTC] PHP  17. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:24:36 UTC] PHP  18. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:24:36 UTC] PHP Warning:  include(): Failed opening '/Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/content-mediablock-.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/media-block.php on line 46
+[23-Oct-2021 04:24:36 UTC] PHP Stack trace:
+[23-Oct-2021 04:24:36 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:24:36 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:24:36 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[23-Oct-2021 04:24:36 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[23-Oct-2021 04:24:36 UTC] PHP   5. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:11
+[23-Oct-2021 04:24:36 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[23-Oct-2021 04:24:36 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 04:24:36 UTC] PHP   8. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[23-Oct-2021 04:24:36 UTC] PHP   9. the_content() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/template-parts/content.php:19
+[23-Oct-2021 04:24:36 UTC] PHP  10. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/post-template.php:253
+[23-Oct-2021 04:24:36 UTC] PHP  11. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:24:36 UTC] PHP  12. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:24:36 UTC] PHP  13. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:24:36 UTC] PHP  14. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:24:36 UTC] PHP  15. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:24:36 UTC] PHP  16. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:24:36 UTC] PHP  17. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:24:36 UTC] PHP  18. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:38:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/carousel.php on line 19
+[23-Oct-2021 04:38:07 UTC] PHP Stack trace:
+[23-Oct-2021 04:38:07 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-admin/admin-ajax.php:0
+[23-Oct-2021 04:38:07 UTC] PHP   2. do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-admin/admin-ajax.php:187
+[23-Oct-2021 04:38:07 UTC] PHP   3. WP_Hook->do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:470
+[23-Oct-2021 04:38:07 UTC] PHP   4. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:327
+[23-Oct-2021 04:38:07 UTC] PHP   5. acf_ajax_fetch_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:38:07 UTC] PHP   6. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:597
+[23-Oct-2021 04:38:07 UTC] PHP   7. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:38:07 UTC] PHP   8. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:38:07 UTC] PHP Warning:  Division by zero in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/carousel.php on line 46
+[23-Oct-2021 04:38:07 UTC] PHP Stack trace:
+[23-Oct-2021 04:38:07 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-admin/admin-ajax.php:0
+[23-Oct-2021 04:38:07 UTC] PHP   2. do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-admin/admin-ajax.php:187
+[23-Oct-2021 04:38:07 UTC] PHP   3. WP_Hook->do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:470
+[23-Oct-2021 04:38:07 UTC] PHP   4. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:327
+[23-Oct-2021 04:38:07 UTC] PHP   5. acf_ajax_fetch_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:38:07 UTC] PHP   6. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:597
+[23-Oct-2021 04:38:07 UTC] PHP   7. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:38:07 UTC] PHP   8. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:39:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/carousel.php on line 19
+[23-Oct-2021 04:39:59 UTC] PHP Stack trace:
+[23-Oct-2021 04:39:59 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-admin/admin-ajax.php:0
+[23-Oct-2021 04:39:59 UTC] PHP   2. do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-admin/admin-ajax.php:187
+[23-Oct-2021 04:39:59 UTC] PHP   3. WP_Hook->do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:470
+[23-Oct-2021 04:39:59 UTC] PHP   4. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:327
+[23-Oct-2021 04:39:59 UTC] PHP   5. acf_ajax_fetch_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:39:59 UTC] PHP   6. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:597
+[23-Oct-2021 04:39:59 UTC] PHP   7. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:39:59 UTC] PHP   8. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:39:59 UTC] PHP Warning:  Division by zero in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/carousel.php on line 46
+[23-Oct-2021 04:39:59 UTC] PHP Stack trace:
+[23-Oct-2021 04:39:59 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-admin/admin-ajax.php:0
+[23-Oct-2021 04:39:59 UTC] PHP   2. do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-admin/admin-ajax.php:187
+[23-Oct-2021 04:39:59 UTC] PHP   3. WP_Hook->do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:470
+[23-Oct-2021 04:39:59 UTC] PHP   4. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:327
+[23-Oct-2021 04:39:59 UTC] PHP   5. acf_ajax_fetch_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:39:59 UTC] PHP   6. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:597
+[23-Oct-2021 04:39:59 UTC] PHP   7. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:39:59 UTC] PHP   8. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:40:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/carousel.php on line 19
+[23-Oct-2021 04:40:41 UTC] PHP Stack trace:
+[23-Oct-2021 04:40:41 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:40:41 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:40:41 UTC] PHP   3. wp() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:16
+[23-Oct-2021 04:40:41 UTC] PHP   4. WP->main() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/functions.php:1291
+[23-Oct-2021 04:40:41 UTC] PHP   5. WP->parse_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp.php:750
+[23-Oct-2021 04:40:41 UTC] PHP   6. do_action_ref_array() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp.php:388
+[23-Oct-2021 04:40:41 UTC] PHP   7. WP_Hook->do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:518
+[23-Oct-2021 04:40:41 UTC] PHP   8. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:327
+[23-Oct-2021 04:40:41 UTC] PHP   9. rest_api_loaded() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:40:41 UTC] PHP  10. WP_REST_Server->serve_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api.php:370
+[23-Oct-2021 04:40:41 UTC] PHP  11. WP_REST_Server->dispatch() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[23-Oct-2021 04:40:41 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:987
+[23-Oct-2021 04:40:41 UTC] PHP  13. WP_REST_Autosaves_Controller->create_item() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:1140
+[23-Oct-2021 04:40:41 UTC] PHP  14. WP_REST_Autosaves_Controller->prepare_item_for_response() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:239
+[23-Oct-2021 04:40:41 UTC] PHP  15. WP_REST_Revisions_Controller->prepare_item_for_response() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:406
+[23-Oct-2021 04:40:41 UTC] PHP  16. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:603
+[23-Oct-2021 04:40:41 UTC] PHP  17. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:40:41 UTC] PHP  18. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:40:41 UTC] PHP  19. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:40:41 UTC] PHP  20. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:40:41 UTC] PHP  21. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:40:41 UTC] PHP  22. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:40:41 UTC] PHP  23. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:40:41 UTC] PHP  24. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:40:41 UTC] PHP Warning:  Division by zero in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/carousel.php on line 46
+[23-Oct-2021 04:40:41 UTC] PHP Stack trace:
+[23-Oct-2021 04:40:41 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:40:41 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:40:41 UTC] PHP   3. wp() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:16
+[23-Oct-2021 04:40:41 UTC] PHP   4. WP->main() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/functions.php:1291
+[23-Oct-2021 04:40:41 UTC] PHP   5. WP->parse_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp.php:750
+[23-Oct-2021 04:40:41 UTC] PHP   6. do_action_ref_array() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp.php:388
+[23-Oct-2021 04:40:41 UTC] PHP   7. WP_Hook->do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:518
+[23-Oct-2021 04:40:41 UTC] PHP   8. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:327
+[23-Oct-2021 04:40:41 UTC] PHP   9. rest_api_loaded() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:40:41 UTC] PHP  10. WP_REST_Server->serve_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api.php:370
+[23-Oct-2021 04:40:41 UTC] PHP  11. WP_REST_Server->dispatch() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[23-Oct-2021 04:40:41 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:987
+[23-Oct-2021 04:40:41 UTC] PHP  13. WP_REST_Autosaves_Controller->create_item() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:1140
+[23-Oct-2021 04:40:41 UTC] PHP  14. WP_REST_Autosaves_Controller->prepare_item_for_response() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:239
+[23-Oct-2021 04:40:41 UTC] PHP  15. WP_REST_Revisions_Controller->prepare_item_for_response() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:406
+[23-Oct-2021 04:40:41 UTC] PHP  16. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:603
+[23-Oct-2021 04:40:41 UTC] PHP  17. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:40:41 UTC] PHP  18. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:40:41 UTC] PHP  19. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:40:41 UTC] PHP  20. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:40:41 UTC] PHP  21. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:40:41 UTC] PHP  22. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:40:41 UTC] PHP  23. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:40:41 UTC] PHP  24. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:41:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/carousel.php on line 19
+[23-Oct-2021 04:41:41 UTC] PHP Stack trace:
+[23-Oct-2021 04:41:41 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:41:41 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:41:41 UTC] PHP   3. wp() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:16
+[23-Oct-2021 04:41:41 UTC] PHP   4. WP->main() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/functions.php:1291
+[23-Oct-2021 04:41:41 UTC] PHP   5. WP->parse_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp.php:750
+[23-Oct-2021 04:41:41 UTC] PHP   6. do_action_ref_array() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp.php:388
+[23-Oct-2021 04:41:41 UTC] PHP   7. WP_Hook->do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:518
+[23-Oct-2021 04:41:41 UTC] PHP   8. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:327
+[23-Oct-2021 04:41:41 UTC] PHP   9. rest_api_loaded() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:41:41 UTC] PHP  10. WP_REST_Server->serve_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api.php:370
+[23-Oct-2021 04:41:41 UTC] PHP  11. WP_REST_Server->dispatch() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[23-Oct-2021 04:41:41 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:987
+[23-Oct-2021 04:41:41 UTC] PHP  13. WP_REST_Autosaves_Controller->create_item() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:1140
+[23-Oct-2021 04:41:41 UTC] PHP  14. WP_REST_Autosaves_Controller->prepare_item_for_response() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:239
+[23-Oct-2021 04:41:41 UTC] PHP  15. WP_REST_Revisions_Controller->prepare_item_for_response() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:406
+[23-Oct-2021 04:41:41 UTC] PHP  16. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:603
+[23-Oct-2021 04:41:41 UTC] PHP  17. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:41:41 UTC] PHP  18. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:41:41 UTC] PHP  19. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:41:41 UTC] PHP  20. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:41:41 UTC] PHP  21. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:41:41 UTC] PHP  22. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:41:41 UTC] PHP  23. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:41:41 UTC] PHP  24. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:41:41 UTC] PHP Warning:  Division by zero in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/carousel.php on line 46
+[23-Oct-2021 04:41:41 UTC] PHP Stack trace:
+[23-Oct-2021 04:41:41 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:41:41 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:41:41 UTC] PHP   3. wp() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:16
+[23-Oct-2021 04:41:41 UTC] PHP   4. WP->main() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/functions.php:1291
+[23-Oct-2021 04:41:41 UTC] PHP   5. WP->parse_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp.php:750
+[23-Oct-2021 04:41:41 UTC] PHP   6. do_action_ref_array() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp.php:388
+[23-Oct-2021 04:41:41 UTC] PHP   7. WP_Hook->do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:518
+[23-Oct-2021 04:41:41 UTC] PHP   8. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:327
+[23-Oct-2021 04:41:41 UTC] PHP   9. rest_api_loaded() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:41:41 UTC] PHP  10. WP_REST_Server->serve_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api.php:370
+[23-Oct-2021 04:41:41 UTC] PHP  11. WP_REST_Server->dispatch() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[23-Oct-2021 04:41:41 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:987
+[23-Oct-2021 04:41:41 UTC] PHP  13. WP_REST_Autosaves_Controller->create_item() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:1140
+[23-Oct-2021 04:41:41 UTC] PHP  14. WP_REST_Autosaves_Controller->prepare_item_for_response() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:239
+[23-Oct-2021 04:41:41 UTC] PHP  15. WP_REST_Revisions_Controller->prepare_item_for_response() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:406
+[23-Oct-2021 04:41:41 UTC] PHP  16. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:603
+[23-Oct-2021 04:41:41 UTC] PHP  17. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:41:41 UTC] PHP  18. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:41:41 UTC] PHP  19. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:41:41 UTC] PHP  20. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:41:41 UTC] PHP  21. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:41:41 UTC] PHP  22. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:41:41 UTC] PHP  23. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:41:41 UTC] PHP  24. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:42:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/carousel.php on line 19
+[23-Oct-2021 04:42:41 UTC] PHP Stack trace:
+[23-Oct-2021 04:42:41 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:42:41 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:42:41 UTC] PHP   3. wp() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:16
+[23-Oct-2021 04:42:41 UTC] PHP   4. WP->main() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/functions.php:1291
+[23-Oct-2021 04:42:41 UTC] PHP   5. WP->parse_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp.php:750
+[23-Oct-2021 04:42:41 UTC] PHP   6. do_action_ref_array() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp.php:388
+[23-Oct-2021 04:42:41 UTC] PHP   7. WP_Hook->do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:518
+[23-Oct-2021 04:42:41 UTC] PHP   8. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:327
+[23-Oct-2021 04:42:41 UTC] PHP   9. rest_api_loaded() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:42:41 UTC] PHP  10. WP_REST_Server->serve_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api.php:370
+[23-Oct-2021 04:42:41 UTC] PHP  11. WP_REST_Server->dispatch() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[23-Oct-2021 04:42:41 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:987
+[23-Oct-2021 04:42:41 UTC] PHP  13. WP_REST_Autosaves_Controller->create_item() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:1140
+[23-Oct-2021 04:42:41 UTC] PHP  14. WP_REST_Autosaves_Controller->prepare_item_for_response() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:239
+[23-Oct-2021 04:42:41 UTC] PHP  15. WP_REST_Revisions_Controller->prepare_item_for_response() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:406
+[23-Oct-2021 04:42:41 UTC] PHP  16. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:603
+[23-Oct-2021 04:42:41 UTC] PHP  17. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:42:41 UTC] PHP  18. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:42:41 UTC] PHP  19. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:42:41 UTC] PHP  20. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:42:41 UTC] PHP  21. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:42:41 UTC] PHP  22. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:42:41 UTC] PHP  23. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:42:41 UTC] PHP  24. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:42:41 UTC] PHP Warning:  Division by zero in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/carousel.php on line 46
+[23-Oct-2021 04:42:41 UTC] PHP Stack trace:
+[23-Oct-2021 04:42:41 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:42:41 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:42:41 UTC] PHP   3. wp() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:16
+[23-Oct-2021 04:42:41 UTC] PHP   4. WP->main() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/functions.php:1291
+[23-Oct-2021 04:42:41 UTC] PHP   5. WP->parse_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp.php:750
+[23-Oct-2021 04:42:41 UTC] PHP   6. do_action_ref_array() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp.php:388
+[23-Oct-2021 04:42:41 UTC] PHP   7. WP_Hook->do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:518
+[23-Oct-2021 04:42:41 UTC] PHP   8. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:327
+[23-Oct-2021 04:42:41 UTC] PHP   9. rest_api_loaded() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:42:41 UTC] PHP  10. WP_REST_Server->serve_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api.php:370
+[23-Oct-2021 04:42:41 UTC] PHP  11. WP_REST_Server->dispatch() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[23-Oct-2021 04:42:41 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:987
+[23-Oct-2021 04:42:41 UTC] PHP  13. WP_REST_Autosaves_Controller->create_item() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:1140
+[23-Oct-2021 04:42:41 UTC] PHP  14. WP_REST_Autosaves_Controller->prepare_item_for_response() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:239
+[23-Oct-2021 04:42:41 UTC] PHP  15. WP_REST_Revisions_Controller->prepare_item_for_response() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:406
+[23-Oct-2021 04:42:41 UTC] PHP  16. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:603
+[23-Oct-2021 04:42:41 UTC] PHP  17. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:42:41 UTC] PHP  18. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:42:41 UTC] PHP  19. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:42:41 UTC] PHP  20. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:42:41 UTC] PHP  21. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:42:41 UTC] PHP  22. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:42:41 UTC] PHP  23. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:42:41 UTC] PHP  24. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:43:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/carousel.php on line 19
+[23-Oct-2021 04:43:01 UTC] PHP Stack trace:
+[23-Oct-2021 04:43:01 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-admin/post.php:0
+[23-Oct-2021 04:43:01 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-admin/post.php:187
+[23-Oct-2021 04:43:01 UTC] PHP   3. block_editor_rest_api_preload() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-admin/edit-form-blocks.php:68
+[23-Oct-2021 04:43:01 UTC] PHP   4. array_reduce() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/block-editor.php:444
+[23-Oct-2021 04:43:01 UTC] PHP   5. rest_preload_api_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/block-editor.php:444
+[23-Oct-2021 04:43:01 UTC] PHP   6. rest_do_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api.php:2832
+[23-Oct-2021 04:43:01 UTC] PHP   7. WP_REST_Server->dispatch() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api.php:495
+[23-Oct-2021 04:43:01 UTC] PHP   8. WP_REST_Server->respond_to_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:987
+[23-Oct-2021 04:43:01 UTC] PHP   9. WP_REST_Autosaves_Controller->get_items() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:1140
+[23-Oct-2021 04:43:01 UTC] PHP  10. WP_REST_Autosaves_Controller->prepare_item_for_response() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:300
+[23-Oct-2021 04:43:01 UTC] PHP  11. WP_REST_Revisions_Controller->prepare_item_for_response() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:406
+[23-Oct-2021 04:43:01 UTC] PHP  12. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:603
+[23-Oct-2021 04:43:01 UTC] PHP  13. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:43:01 UTC] PHP  14. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:43:01 UTC] PHP  15. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:43:01 UTC] PHP  16. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:43:01 UTC] PHP  17. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:43:01 UTC] PHP  18. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:43:01 UTC] PHP  19. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:43:01 UTC] PHP  20. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:43:01 UTC] PHP Warning:  Division by zero in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/carousel.php on line 46
+[23-Oct-2021 04:43:01 UTC] PHP Stack trace:
+[23-Oct-2021 04:43:01 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-admin/post.php:0
+[23-Oct-2021 04:43:01 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-admin/post.php:187
+[23-Oct-2021 04:43:01 UTC] PHP   3. block_editor_rest_api_preload() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-admin/edit-form-blocks.php:68
+[23-Oct-2021 04:43:01 UTC] PHP   4. array_reduce() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/block-editor.php:444
+[23-Oct-2021 04:43:01 UTC] PHP   5. rest_preload_api_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/block-editor.php:444
+[23-Oct-2021 04:43:01 UTC] PHP   6. rest_do_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api.php:2832
+[23-Oct-2021 04:43:01 UTC] PHP   7. WP_REST_Server->dispatch() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api.php:495
+[23-Oct-2021 04:43:01 UTC] PHP   8. WP_REST_Server->respond_to_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:987
+[23-Oct-2021 04:43:01 UTC] PHP   9. WP_REST_Autosaves_Controller->get_items() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:1140
+[23-Oct-2021 04:43:01 UTC] PHP  10. WP_REST_Autosaves_Controller->prepare_item_for_response() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:300
+[23-Oct-2021 04:43:01 UTC] PHP  11. WP_REST_Revisions_Controller->prepare_item_for_response() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:406
+[23-Oct-2021 04:43:01 UTC] PHP  12. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:603
+[23-Oct-2021 04:43:01 UTC] PHP  13. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:43:01 UTC] PHP  14. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:43:01 UTC] PHP  15. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:43:01 UTC] PHP  16. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:43:01 UTC] PHP  17. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:43:01 UTC] PHP  18. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:43:01 UTC] PHP  19. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:43:01 UTC] PHP  20. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:43:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/carousel.php on line 19
+[23-Oct-2021 04:43:42 UTC] PHP Stack trace:
+[23-Oct-2021 04:43:42 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-admin/admin-ajax.php:0
+[23-Oct-2021 04:43:42 UTC] PHP   2. do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-admin/admin-ajax.php:187
+[23-Oct-2021 04:43:42 UTC] PHP   3. WP_Hook->do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:470
+[23-Oct-2021 04:43:42 UTC] PHP   4. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:327
+[23-Oct-2021 04:43:42 UTC] PHP   5. acf_ajax_fetch_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:43:42 UTC] PHP   6. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:597
+[23-Oct-2021 04:43:42 UTC] PHP   7. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:43:42 UTC] PHP   8. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:43:42 UTC] PHP Warning:  Division by zero in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/carousel.php on line 46
+[23-Oct-2021 04:43:42 UTC] PHP Stack trace:
+[23-Oct-2021 04:43:42 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-admin/admin-ajax.php:0
+[23-Oct-2021 04:43:42 UTC] PHP   2. do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-admin/admin-ajax.php:187
+[23-Oct-2021 04:43:42 UTC] PHP   3. WP_Hook->do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:470
+[23-Oct-2021 04:43:42 UTC] PHP   4. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:327
+[23-Oct-2021 04:43:42 UTC] PHP   5. acf_ajax_fetch_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:43:42 UTC] PHP   6. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:597
+[23-Oct-2021 04:43:42 UTC] PHP   7. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:43:42 UTC] PHP   8. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:44:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/carousel.php on line 19
+[23-Oct-2021 04:44:03 UTC] PHP Stack trace:
+[23-Oct-2021 04:44:03 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:44:03 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:44:03 UTC] PHP   3. wp() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:16
+[23-Oct-2021 04:44:03 UTC] PHP   4. WP->main() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/functions.php:1291
+[23-Oct-2021 04:44:03 UTC] PHP   5. WP->parse_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp.php:750
+[23-Oct-2021 04:44:03 UTC] PHP   6. do_action_ref_array() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp.php:388
+[23-Oct-2021 04:44:03 UTC] PHP   7. WP_Hook->do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:518
+[23-Oct-2021 04:44:03 UTC] PHP   8. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:327
+[23-Oct-2021 04:44:03 UTC] PHP   9. rest_api_loaded() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:44:03 UTC] PHP  10. WP_REST_Server->serve_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api.php:370
+[23-Oct-2021 04:44:03 UTC] PHP  11. WP_REST_Server->dispatch() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[23-Oct-2021 04:44:03 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:987
+[23-Oct-2021 04:44:03 UTC] PHP  13. WP_REST_Autosaves_Controller->create_item() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:1140
+[23-Oct-2021 04:44:03 UTC] PHP  14. WP_REST_Autosaves_Controller->prepare_item_for_response() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:239
+[23-Oct-2021 04:44:03 UTC] PHP  15. WP_REST_Revisions_Controller->prepare_item_for_response() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:406
+[23-Oct-2021 04:44:03 UTC] PHP  16. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:603
+[23-Oct-2021 04:44:03 UTC] PHP  17. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:44:03 UTC] PHP  18. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:44:03 UTC] PHP  19. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:44:03 UTC] PHP  20. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:44:03 UTC] PHP  21. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:44:03 UTC] PHP  22. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:44:03 UTC] PHP  23. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:44:03 UTC] PHP  24. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:44:03 UTC] PHP Warning:  Division by zero in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/carousel.php on line 46
+[23-Oct-2021 04:44:03 UTC] PHP Stack trace:
+[23-Oct-2021 04:44:03 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:44:03 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:44:03 UTC] PHP   3. wp() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:16
+[23-Oct-2021 04:44:03 UTC] PHP   4. WP->main() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/functions.php:1291
+[23-Oct-2021 04:44:03 UTC] PHP   5. WP->parse_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp.php:750
+[23-Oct-2021 04:44:03 UTC] PHP   6. do_action_ref_array() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp.php:388
+[23-Oct-2021 04:44:03 UTC] PHP   7. WP_Hook->do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:518
+[23-Oct-2021 04:44:03 UTC] PHP   8. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:327
+[23-Oct-2021 04:44:03 UTC] PHP   9. rest_api_loaded() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:44:03 UTC] PHP  10. WP_REST_Server->serve_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api.php:370
+[23-Oct-2021 04:44:03 UTC] PHP  11. WP_REST_Server->dispatch() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[23-Oct-2021 04:44:03 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:987
+[23-Oct-2021 04:44:03 UTC] PHP  13. WP_REST_Autosaves_Controller->create_item() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:1140
+[23-Oct-2021 04:44:03 UTC] PHP  14. WP_REST_Autosaves_Controller->prepare_item_for_response() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:239
+[23-Oct-2021 04:44:03 UTC] PHP  15. WP_REST_Revisions_Controller->prepare_item_for_response() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:406
+[23-Oct-2021 04:44:03 UTC] PHP  16. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:603
+[23-Oct-2021 04:44:03 UTC] PHP  17. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:44:03 UTC] PHP  18. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:44:03 UTC] PHP  19. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:44:03 UTC] PHP  20. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:44:03 UTC] PHP  21. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:44:03 UTC] PHP  22. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:44:03 UTC] PHP  23. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:44:03 UTC] PHP  24. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:44:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/carousel.php on line 19
+[23-Oct-2021 04:44:36 UTC] PHP Stack trace:
+[23-Oct-2021 04:44:36 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:44:36 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:44:36 UTC] PHP   3. wp() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:16
+[23-Oct-2021 04:44:36 UTC] PHP   4. WP->main() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/functions.php:1291
+[23-Oct-2021 04:44:36 UTC] PHP   5. WP->parse_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp.php:750
+[23-Oct-2021 04:44:36 UTC] PHP   6. do_action_ref_array() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp.php:388
+[23-Oct-2021 04:44:36 UTC] PHP   7. WP_Hook->do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:518
+[23-Oct-2021 04:44:36 UTC] PHP   8. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:327
+[23-Oct-2021 04:44:36 UTC] PHP   9. rest_api_loaded() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:44:36 UTC] PHP  10. WP_REST_Server->serve_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api.php:370
+[23-Oct-2021 04:44:36 UTC] PHP  11. WP_REST_Server->dispatch() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[23-Oct-2021 04:44:36 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:987
+[23-Oct-2021 04:44:36 UTC] PHP  13. WP_REST_Posts_Controller->update_item() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:1140
+[23-Oct-2021 04:44:36 UTC] PHP  14. WP_REST_Posts_Controller->prepare_item_for_response() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:893
+[23-Oct-2021 04:44:36 UTC] PHP  15. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1792
+[23-Oct-2021 04:44:36 UTC] PHP  16. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:44:36 UTC] PHP  17. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:44:36 UTC] PHP  18. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:44:36 UTC] PHP  19. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:44:36 UTC] PHP  20. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:44:36 UTC] PHP  21. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:44:36 UTC] PHP  22. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:44:36 UTC] PHP  23. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:44:36 UTC] PHP Warning:  Division by zero in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/carousel.php on line 46
+[23-Oct-2021 04:44:36 UTC] PHP Stack trace:
+[23-Oct-2021 04:44:36 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:44:36 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:44:36 UTC] PHP   3. wp() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:16
+[23-Oct-2021 04:44:36 UTC] PHP   4. WP->main() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/functions.php:1291
+[23-Oct-2021 04:44:36 UTC] PHP   5. WP->parse_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp.php:750
+[23-Oct-2021 04:44:36 UTC] PHP   6. do_action_ref_array() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp.php:388
+[23-Oct-2021 04:44:36 UTC] PHP   7. WP_Hook->do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:518
+[23-Oct-2021 04:44:36 UTC] PHP   8. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:327
+[23-Oct-2021 04:44:36 UTC] PHP   9. rest_api_loaded() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:44:36 UTC] PHP  10. WP_REST_Server->serve_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api.php:370
+[23-Oct-2021 04:44:36 UTC] PHP  11. WP_REST_Server->dispatch() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[23-Oct-2021 04:44:36 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:987
+[23-Oct-2021 04:44:36 UTC] PHP  13. WP_REST_Posts_Controller->update_item() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:1140
+[23-Oct-2021 04:44:36 UTC] PHP  14. WP_REST_Posts_Controller->prepare_item_for_response() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:893
+[23-Oct-2021 04:44:36 UTC] PHP  15. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1792
+[23-Oct-2021 04:44:36 UTC] PHP  16. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:44:36 UTC] PHP  17. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:44:36 UTC] PHP  18. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:44:36 UTC] PHP  19. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:44:36 UTC] PHP  20. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:44:36 UTC] PHP  21. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:44:36 UTC] PHP  22. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:44:36 UTC] PHP  23. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:44:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/carousel.php on line 19
+[23-Oct-2021 04:44:53 UTC] PHP Stack trace:
+[23-Oct-2021 04:44:53 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:44:53 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:44:53 UTC] PHP   3. wp() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:16
+[23-Oct-2021 04:44:53 UTC] PHP   4. WP->main() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/functions.php:1291
+[23-Oct-2021 04:44:53 UTC] PHP   5. WP->parse_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp.php:750
+[23-Oct-2021 04:44:53 UTC] PHP   6. do_action_ref_array() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp.php:388
+[23-Oct-2021 04:44:53 UTC] PHP   7. WP_Hook->do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:518
+[23-Oct-2021 04:44:53 UTC] PHP   8. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:327
+[23-Oct-2021 04:44:53 UTC] PHP   9. rest_api_loaded() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:44:53 UTC] PHP  10. WP_REST_Server->serve_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api.php:370
+[23-Oct-2021 04:44:53 UTC] PHP  11. WP_REST_Server->dispatch() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[23-Oct-2021 04:44:53 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:987
+[23-Oct-2021 04:44:53 UTC] PHP  13. WP_REST_Posts_Controller->get_item() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:1140
+[23-Oct-2021 04:44:53 UTC] PHP  14. WP_REST_Posts_Controller->prepare_item_for_response() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:550
+[23-Oct-2021 04:44:53 UTC] PHP  15. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1792
+[23-Oct-2021 04:44:53 UTC] PHP  16. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:44:53 UTC] PHP  17. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:44:53 UTC] PHP  18. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:44:53 UTC] PHP  19. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:44:53 UTC] PHP  20. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:44:53 UTC] PHP  21. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:44:53 UTC] PHP  22. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:44:53 UTC] PHP  23. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:44:53 UTC] PHP Warning:  Division by zero in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/carousel.php on line 46
+[23-Oct-2021 04:44:53 UTC] PHP Stack trace:
+[23-Oct-2021 04:44:53 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:44:53 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:44:53 UTC] PHP   3. wp() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:16
+[23-Oct-2021 04:44:53 UTC] PHP   4. WP->main() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/functions.php:1291
+[23-Oct-2021 04:44:53 UTC] PHP   5. WP->parse_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp.php:750
+[23-Oct-2021 04:44:53 UTC] PHP   6. do_action_ref_array() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp.php:388
+[23-Oct-2021 04:44:53 UTC] PHP   7. WP_Hook->do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:518
+[23-Oct-2021 04:44:53 UTC] PHP   8. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:327
+[23-Oct-2021 04:44:53 UTC] PHP   9. rest_api_loaded() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:44:53 UTC] PHP  10. WP_REST_Server->serve_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api.php:370
+[23-Oct-2021 04:44:53 UTC] PHP  11. WP_REST_Server->dispatch() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[23-Oct-2021 04:44:53 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:987
+[23-Oct-2021 04:44:53 UTC] PHP  13. WP_REST_Posts_Controller->get_item() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/class-wp-rest-server.php:1140
+[23-Oct-2021 04:44:53 UTC] PHP  14. WP_REST_Posts_Controller->prepare_item_for_response() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:550
+[23-Oct-2021 04:44:53 UTC] PHP  15. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1792
+[23-Oct-2021 04:44:53 UTC] PHP  16. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:44:53 UTC] PHP  17. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:44:53 UTC] PHP  18. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:44:53 UTC] PHP  19. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:44:53 UTC] PHP  20. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:44:53 UTC] PHP  21. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:44:53 UTC] PHP  22. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:44:53 UTC] PHP  23. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:44:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/carousel.php on line 19
+[23-Oct-2021 04:44:56 UTC] PHP Stack trace:
+[23-Oct-2021 04:44:56 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:44:56 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:44:56 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[23-Oct-2021 04:44:56 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[23-Oct-2021 04:44:56 UTC] PHP   5. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:11
+[23-Oct-2021 04:44:56 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[23-Oct-2021 04:44:56 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 04:44:56 UTC] PHP   8. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[23-Oct-2021 04:44:56 UTC] PHP   9. the_content() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/template-parts/content.php:19
+[23-Oct-2021 04:44:56 UTC] PHP  10. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/post-template.php:253
+[23-Oct-2021 04:44:56 UTC] PHP  11. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:44:56 UTC] PHP  12. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:44:56 UTC] PHP  13. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:44:56 UTC] PHP  14. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:44:56 UTC] PHP  15. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:44:56 UTC] PHP  16. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:44:56 UTC] PHP  17. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:44:56 UTC] PHP  18. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 04:44:56 UTC] PHP Warning:  Division by zero in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/carousel.php on line 46
+[23-Oct-2021 04:44:56 UTC] PHP Stack trace:
+[23-Oct-2021 04:44:56 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 04:44:56 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 04:44:56 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[23-Oct-2021 04:44:56 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[23-Oct-2021 04:44:56 UTC] PHP   5. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:11
+[23-Oct-2021 04:44:56 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[23-Oct-2021 04:44:56 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 04:44:56 UTC] PHP   8. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[23-Oct-2021 04:44:56 UTC] PHP   9. the_content() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/template-parts/content.php:19
+[23-Oct-2021 04:44:56 UTC] PHP  10. apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/post-template.php:253
+[23-Oct-2021 04:44:56 UTC] PHP  11. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:189
+[23-Oct-2021 04:44:56 UTC] PHP  12. do_blocks() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 04:44:56 UTC] PHP  13. render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:906
+[23-Oct-2021 04:44:56 UTC] PHP  14. WP_Block->render() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/blocks.php:868
+[23-Oct-2021 04:44:56 UTC] PHP  15. acf_render_block_callback() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-block.php:221
+[23-Oct-2021 04:44:56 UTC] PHP  16. acf_rendered_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:307
+[23-Oct-2021 04:44:56 UTC] PHP  17. acf_render_block() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[23-Oct-2021 04:44:56 UTC] PHP  18. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[23-Oct-2021 06:30:21 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/footer.php on line 54
+[23-Oct-2021 06:39:14 UTC] PHP Fatal error:  Cannot redeclare register_options_page() (previously declared in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/options-page.php:610) in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/inc/acf-blocks.php on line 143
+[23-Oct-2021 06:39:14 UTC] PHP Stack trace:
+[23-Oct-2021 06:39:14 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 06:39:14 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 06:39:14 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:13
+[23-Oct-2021 06:39:14 UTC] PHP   4. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-load.php:50
+[23-Oct-2021 06:39:14 UTC] PHP   5. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-config.php:77
+[23-Oct-2021 06:39:14 UTC] PHP   6. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-settings.php:546
+[23-Oct-2021 06:39:15 UTC] PHP Fatal error:  Cannot redeclare register_options_page() (previously declared in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/options-page.php:610) in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/inc/acf-blocks.php on line 143
+[23-Oct-2021 06:39:15 UTC] PHP Stack trace:
+[23-Oct-2021 06:39:15 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 06:39:15 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 06:39:15 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:13
+[23-Oct-2021 06:39:15 UTC] PHP   4. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-load.php:50
+[23-Oct-2021 06:39:15 UTC] PHP   5. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-config.php:77
+[23-Oct-2021 06:39:15 UTC] PHP   6. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-settings.php:546
+[23-Oct-2021 13:37:35 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'your_function_name' not found or invalid function name in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php on line 303
+[23-Oct-2021 13:37:35 UTC] PHP Stack trace:
+[23-Oct-2021 13:37:35 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 13:37:35 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 13:37:35 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[23-Oct-2021 13:37:35 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[23-Oct-2021 13:37:35 UTC] PHP   5. get_footer() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:20
+[23-Oct-2021 13:37:35 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:92
+[23-Oct-2021 13:37:35 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 13:37:35 UTC] PHP   8. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:770
+[23-Oct-2021 13:37:35 UTC] PHP   9. wp_footer() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/footer.php:51
+[23-Oct-2021 13:37:35 UTC] PHP  10. do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:3031
+[23-Oct-2021 13:37:35 UTC] PHP  11. WP_Hook->do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:470
+[23-Oct-2021 13:37:35 UTC] PHP  12. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:327
+[23-Oct-2021 13:39:43 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/inc/navigation.php on line 17
+[23-Oct-2021 13:41:44 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/inc/navigation.php on line 17
+[23-Oct-2021 13:42:48 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/inc/navigation.php on line 17
+[23-Oct-2021 13:42:48 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/inc/navigation.php on line 17
+[23-Oct-2021 13:52:38 UTC] PHP Warning:  Use of undefined constant wp - assumed 'wp' (this will throw an Error in a future version of PHP) in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/full-screen-menu.php on line 4
+[23-Oct-2021 13:52:38 UTC] PHP Stack trace:
+[23-Oct-2021 13:52:38 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[23-Oct-2021 13:52:38 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[23-Oct-2021 13:52:38 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[23-Oct-2021 13:52:38 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[23-Oct-2021 13:52:38 UTC] PHP   5. get_footer() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:20
+[23-Oct-2021 13:52:38 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:92
+[23-Oct-2021 13:52:38 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 13:52:38 UTC] PHP   8. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:770
+[23-Oct-2021 13:52:38 UTC] PHP   9. wp_footer() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/footer.php:51
+[23-Oct-2021 13:52:38 UTC] PHP  10. do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:3031
+[23-Oct-2021 13:52:38 UTC] PHP  11. WP_Hook->do_action() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php:470
+[23-Oct-2021 13:52:38 UTC] PHP  12. WP_Hook->apply_filters() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:327
+[23-Oct-2021 13:52:38 UTC] PHP  13. fullScreenNavigation() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php:303
+[23-Oct-2021 13:52:38 UTC] PHP  14. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/inc/navigation.php:16
+[23-Oct-2021 13:52:38 UTC] PHP  15. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[23-Oct-2021 13:52:38 UTC] PHP  16. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[23-Oct-2021 13:52:38 UTC] PHP  17. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[23-Oct-2021 13:52:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function menu() in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/full-screen-menu.php:4
+Stack trace:
+#0 /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php(772): require()
+#1 /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php(716): load_template('/Users/ryanlaha...', false, Array)
+#2 /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/inc/navigation.php(16): get_template_part('partials/full-s...', '')
+#4 /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php(303): fullScreenNavigation('')
+#5 /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/plugin.php(470): WP_Hook-> in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/full-screen-menu.php on line 4
+[23-Oct-2021 14:31:59 UTC] PHP Parse error:  syntax error, unexpected '!', expecting '(' in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/content-mediablock-faq.php on line 2
+[23-Oct-2021 14:32:25 UTC] PHP Parse error:  syntax error, unexpected '{' in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/content-mediablock-faq.php on line 2
+[23-Oct-2021 16:08:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_menu() in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/footer.php:20
+Stack trace:
+#0 /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php(770): require_once()
+#1 /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php(716): load_template('/Users/ryanlaha...', true, Array)
+#2 /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php(20): get_footer()
+#4 /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php(106): include('/Users/ryanlaha...')
+#5 /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php(19): require_once('/Users/ryanlaha...')
+#6 /Users/ryanlahay/Local Sites/tailwind/app/public/index.php(17): require('/Users/ryanlaha...')
+#7 {main}
+  thrown in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/footer.php on line 20
+[23-Oct-2021 20:10:02 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ']' in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/link-buttons.php on line 15
+[23-Oct-2021 20:10:16 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/blocks/text-block.php on line 47
+[23-Oct-2021 21:00:03 UTC] PHP Parse error:  syntax error, unexpected '/', expecting end of file in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/social-links.php on line 2
+[24-Oct-2021 03:00:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_templat_part() in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/footer.php:34
+Stack trace:
+#0 /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php(770): require_once()
+#1 /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php(716): load_template('/Users/ryanlaha...', true, Array)
+#2 /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php(20): get_footer()
+#4 /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php(106): include('/Users/ryanlaha...')
+#5 /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php(19): require_once('/Users/ryanlaha...')
+#6 /Users/ryanlahay/Local Sites/tailwind/app/public/index.php(17): require('/Users/ryanlaha...')
+#7 {main}
+  thrown in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/footer.php on line 34
+[24-Oct-2021 03:00:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_templat_part() in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/footer.php:34
+Stack trace:
+#0 /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php(770): require_once()
+#1 /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php(716): load_template('/Users/ryanlaha...', true, Array)
+#2 /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php(20): get_footer()
+#4 /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php(106): include('/Users/ryanlaha...')
+#5 /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php(19): require_once('/Users/ryanlaha...')
+#6 /Users/ryanlahay/Local Sites/tailwind/app/public/index.php(17): require('/Users/ryanlaha...')
+#7 {main}
+  thrown in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/footer.php on line 34
+[24-Oct-2021 03:33:35 UTC] PHP Warning:  Illegal string offset 'url' in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/legalize.php on line 21
+[24-Oct-2021 03:33:35 UTC] PHP Stack trace:
+[24-Oct-2021 03:33:35 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[24-Oct-2021 03:33:35 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[24-Oct-2021 03:33:35 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[24-Oct-2021 03:33:35 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[24-Oct-2021 03:33:35 UTC] PHP   5. get_footer() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:20
+[24-Oct-2021 03:33:35 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:92
+[24-Oct-2021 03:33:35 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[24-Oct-2021 03:33:35 UTC] PHP   8. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:770
+[24-Oct-2021 03:33:35 UTC] PHP   9. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/footer.php:34
+[24-Oct-2021 03:33:35 UTC] PHP  10. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[24-Oct-2021 03:33:35 UTC] PHP  11. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[24-Oct-2021 03:33:35 UTC] PHP  12. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[24-Oct-2021 03:33:35 UTC] PHP Warning:  Illegal string offset 'target' in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/legalize.php on line 22
+[24-Oct-2021 03:33:35 UTC] PHP Stack trace:
+[24-Oct-2021 03:33:35 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[24-Oct-2021 03:33:35 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[24-Oct-2021 03:33:35 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[24-Oct-2021 03:33:35 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[24-Oct-2021 03:33:35 UTC] PHP   5. get_footer() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:20
+[24-Oct-2021 03:33:35 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:92
+[24-Oct-2021 03:33:35 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[24-Oct-2021 03:33:35 UTC] PHP   8. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:770
+[24-Oct-2021 03:33:35 UTC] PHP   9. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/footer.php:34
+[24-Oct-2021 03:33:35 UTC] PHP  10. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[24-Oct-2021 03:33:35 UTC] PHP  11. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[24-Oct-2021 03:33:35 UTC] PHP  12. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[24-Oct-2021 03:33:35 UTC] PHP Warning:  Illegal string offset 'target' in /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/partials/legalize.php on line 22
+[24-Oct-2021 03:33:35 UTC] PHP Stack trace:
+[24-Oct-2021 03:33:35 UTC] PHP   1. {main}() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:0
+[24-Oct-2021 03:33:35 UTC] PHP   2. require() /Users/ryanlahay/Local Sites/tailwind/app/public/index.php:17
+[24-Oct-2021 03:33:35 UTC] PHP   3. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-blog-header.php:19
+[24-Oct-2021 03:33:35 UTC] PHP   4. include() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template-loader.php:106
+[24-Oct-2021 03:33:35 UTC] PHP   5. get_footer() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/index.php:20
+[24-Oct-2021 03:33:35 UTC] PHP   6. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:92
+[24-Oct-2021 03:33:35 UTC] PHP   7. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[24-Oct-2021 03:33:35 UTC] PHP   8. require_once() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:770
+[24-Oct-2021 03:33:35 UTC] PHP   9. get_template_part() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-content/themes/tailpress-master/footer.php:34
+[24-Oct-2021 03:33:35 UTC] PHP  10. locate_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/general-template.php:204
+[24-Oct-2021 03:33:35 UTC] PHP  11. load_template() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:716
+[24-Oct-2021 03:33:35 UTC] PHP  12. require() /Users/ryanlahay/Local Sites/tailwind/app/public/wp-includes/template.php:772
+[04-Dec-2021 04:43:41 UTC] PHP Warning:  Illegal string offset 'url' in /Users/lahay/Local Sites/kentro/app/public/wp-content/themes/tailpress-master/template-parts/blocks/link-buttons.php on line 14
+[04-Dec-2021 04:43:41 UTC] PHP Stack trace:
+[04-Dec-2021 04:43:41 UTC] PHP   1. {main}() /Users/lahay/Local Sites/kentro/app/public/wp-admin/admin-ajax.php:0
+[04-Dec-2021 04:43:41 UTC] PHP   2. do_action() /Users/lahay/Local Sites/kentro/app/public/wp-admin/admin-ajax.php:187
+[04-Dec-2021 04:43:41 UTC] PHP   3. WP_Hook->do_action() /Users/lahay/Local Sites/kentro/app/public/wp-includes/plugin.php:470
+[04-Dec-2021 04:43:41 UTC] PHP   4. WP_Hook->apply_filters() /Users/lahay/Local Sites/kentro/app/public/wp-includes/class-wp-hook.php:327
+[04-Dec-2021 04:43:41 UTC] PHP   5. acf_ajax_fetch_block() /Users/lahay/Local Sites/kentro/app/public/wp-includes/class-wp-hook.php:303
+[04-Dec-2021 04:43:41 UTC] PHP   6. acf_rendered_block() /Users/lahay/Local Sites/kentro/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:597
+[04-Dec-2021 04:43:41 UTC] PHP   7. acf_render_block() /Users/lahay/Local Sites/kentro/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[04-Dec-2021 04:43:41 UTC] PHP   8. include() /Users/lahay/Local Sites/kentro/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[04-Dec-2021 04:43:41 UTC] PHP   9. get_template_part() /Users/lahay/Local Sites/kentro/app/public/wp-content/themes/tailpress-master/template-parts/blocks/media-block.php:64
+[04-Dec-2021 04:43:41 UTC] PHP  10. locate_template() /Users/lahay/Local Sites/kentro/app/public/wp-includes/general-template.php:204
+[04-Dec-2021 04:43:41 UTC] PHP  11. load_template() /Users/lahay/Local Sites/kentro/app/public/wp-includes/template.php:716
+[04-Dec-2021 04:43:41 UTC] PHP  12. require() /Users/lahay/Local Sites/kentro/app/public/wp-includes/template.php:772
+[04-Dec-2021 04:43:41 UTC] PHP Warning:  Illegal string offset 'title' in /Users/lahay/Local Sites/kentro/app/public/wp-content/themes/tailpress-master/template-parts/blocks/link-buttons.php on line 15
+[04-Dec-2021 04:43:41 UTC] PHP Stack trace:
+[04-Dec-2021 04:43:41 UTC] PHP   1. {main}() /Users/lahay/Local Sites/kentro/app/public/wp-admin/admin-ajax.php:0
+[04-Dec-2021 04:43:41 UTC] PHP   2. do_action() /Users/lahay/Local Sites/kentro/app/public/wp-admin/admin-ajax.php:187
+[04-Dec-2021 04:43:41 UTC] PHP   3. WP_Hook->do_action() /Users/lahay/Local Sites/kentro/app/public/wp-includes/plugin.php:470
+[04-Dec-2021 04:43:41 UTC] PHP   4. WP_Hook->apply_filters() /Users/lahay/Local Sites/kentro/app/public/wp-includes/class-wp-hook.php:327
+[04-Dec-2021 04:43:41 UTC] PHP   5. acf_ajax_fetch_block() /Users/lahay/Local Sites/kentro/app/public/wp-includes/class-wp-hook.php:303
+[04-Dec-2021 04:43:41 UTC] PHP   6. acf_rendered_block() /Users/lahay/Local Sites/kentro/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:597
+[04-Dec-2021 04:43:41 UTC] PHP   7. acf_render_block() /Users/lahay/Local Sites/kentro/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[04-Dec-2021 04:43:41 UTC] PHP   8. include() /Users/lahay/Local Sites/kentro/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[04-Dec-2021 04:43:41 UTC] PHP   9. get_template_part() /Users/lahay/Local Sites/kentro/app/public/wp-content/themes/tailpress-master/template-parts/blocks/media-block.php:64
+[04-Dec-2021 04:43:41 UTC] PHP  10. locate_template() /Users/lahay/Local Sites/kentro/app/public/wp-includes/general-template.php:204
+[04-Dec-2021 04:43:41 UTC] PHP  11. load_template() /Users/lahay/Local Sites/kentro/app/public/wp-includes/template.php:716
+[04-Dec-2021 04:43:41 UTC] PHP  12. require() /Users/lahay/Local Sites/kentro/app/public/wp-includes/template.php:772
+[04-Dec-2021 04:43:41 UTC] PHP Warning:  Illegal string offset 'target' in /Users/lahay/Local Sites/kentro/app/public/wp-content/themes/tailpress-master/template-parts/blocks/link-buttons.php on line 16
+[04-Dec-2021 04:43:41 UTC] PHP Stack trace:
+[04-Dec-2021 04:43:41 UTC] PHP   1. {main}() /Users/lahay/Local Sites/kentro/app/public/wp-admin/admin-ajax.php:0
+[04-Dec-2021 04:43:41 UTC] PHP   2. do_action() /Users/lahay/Local Sites/kentro/app/public/wp-admin/admin-ajax.php:187
+[04-Dec-2021 04:43:41 UTC] PHP   3. WP_Hook->do_action() /Users/lahay/Local Sites/kentro/app/public/wp-includes/plugin.php:470
+[04-Dec-2021 04:43:41 UTC] PHP   4. WP_Hook->apply_filters() /Users/lahay/Local Sites/kentro/app/public/wp-includes/class-wp-hook.php:327
+[04-Dec-2021 04:43:41 UTC] PHP   5. acf_ajax_fetch_block() /Users/lahay/Local Sites/kentro/app/public/wp-includes/class-wp-hook.php:303
+[04-Dec-2021 04:43:41 UTC] PHP   6. acf_rendered_block() /Users/lahay/Local Sites/kentro/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:597
+[04-Dec-2021 04:43:41 UTC] PHP   7. acf_render_block() /Users/lahay/Local Sites/kentro/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[04-Dec-2021 04:43:41 UTC] PHP   8. include() /Users/lahay/Local Sites/kentro/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[04-Dec-2021 04:43:41 UTC] PHP   9. get_template_part() /Users/lahay/Local Sites/kentro/app/public/wp-content/themes/tailpress-master/template-parts/blocks/media-block.php:64
+[04-Dec-2021 04:43:41 UTC] PHP  10. locate_template() /Users/lahay/Local Sites/kentro/app/public/wp-includes/general-template.php:204
+[04-Dec-2021 04:43:41 UTC] PHP  11. load_template() /Users/lahay/Local Sites/kentro/app/public/wp-includes/template.php:716
+[04-Dec-2021 04:43:41 UTC] PHP  12. require() /Users/lahay/Local Sites/kentro/app/public/wp-includes/template.php:772
+[04-Dec-2021 04:43:46 UTC] PHP Warning:  Illegal string offset 'url' in /Users/lahay/Local Sites/kentro/app/public/wp-content/themes/tailpress-master/template-parts/blocks/link-buttons.php on line 14
+[04-Dec-2021 04:43:46 UTC] PHP Stack trace:
+[04-Dec-2021 04:43:46 UTC] PHP   1. {main}() /Users/lahay/Local Sites/kentro/app/public/wp-admin/admin-ajax.php:0
+[04-Dec-2021 04:43:46 UTC] PHP   2. do_action() /Users/lahay/Local Sites/kentro/app/public/wp-admin/admin-ajax.php:187
+[04-Dec-2021 04:43:46 UTC] PHP   3. WP_Hook->do_action() /Users/lahay/Local Sites/kentro/app/public/wp-includes/plugin.php:470
+[04-Dec-2021 04:43:46 UTC] PHP   4. WP_Hook->apply_filters() /Users/lahay/Local Sites/kentro/app/public/wp-includes/class-wp-hook.php:327
+[04-Dec-2021 04:43:46 UTC] PHP   5. acf_ajax_fetch_block() /Users/lahay/Local Sites/kentro/app/public/wp-includes/class-wp-hook.php:303
+[04-Dec-2021 04:43:46 UTC] PHP   6. acf_rendered_block() /Users/lahay/Local Sites/kentro/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:597
+[04-Dec-2021 04:43:46 UTC] PHP   7. acf_render_block() /Users/lahay/Local Sites/kentro/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[04-Dec-2021 04:43:46 UTC] PHP   8. include() /Users/lahay/Local Sites/kentro/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[04-Dec-2021 04:43:46 UTC] PHP   9. get_template_part() /Users/lahay/Local Sites/kentro/app/public/wp-content/themes/tailpress-master/template-parts/blocks/media-block.php:64
+[04-Dec-2021 04:43:46 UTC] PHP  10. locate_template() /Users/lahay/Local Sites/kentro/app/public/wp-includes/general-template.php:204
+[04-Dec-2021 04:43:46 UTC] PHP  11. load_template() /Users/lahay/Local Sites/kentro/app/public/wp-includes/template.php:716
+[04-Dec-2021 04:43:46 UTC] PHP  12. require() /Users/lahay/Local Sites/kentro/app/public/wp-includes/template.php:772
+[04-Dec-2021 04:43:46 UTC] PHP Warning:  Illegal string offset 'title' in /Users/lahay/Local Sites/kentro/app/public/wp-content/themes/tailpress-master/template-parts/blocks/link-buttons.php on line 15
+[04-Dec-2021 04:43:46 UTC] PHP Stack trace:
+[04-Dec-2021 04:43:46 UTC] PHP   1. {main}() /Users/lahay/Local Sites/kentro/app/public/wp-admin/admin-ajax.php:0
+[04-Dec-2021 04:43:46 UTC] PHP   2. do_action() /Users/lahay/Local Sites/kentro/app/public/wp-admin/admin-ajax.php:187
+[04-Dec-2021 04:43:46 UTC] PHP   3. WP_Hook->do_action() /Users/lahay/Local Sites/kentro/app/public/wp-includes/plugin.php:470
+[04-Dec-2021 04:43:46 UTC] PHP   4. WP_Hook->apply_filters() /Users/lahay/Local Sites/kentro/app/public/wp-includes/class-wp-hook.php:327
+[04-Dec-2021 04:43:46 UTC] PHP   5. acf_ajax_fetch_block() /Users/lahay/Local Sites/kentro/app/public/wp-includes/class-wp-hook.php:303
+[04-Dec-2021 04:43:46 UTC] PHP   6. acf_rendered_block() /Users/lahay/Local Sites/kentro/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:597
+[04-Dec-2021 04:43:46 UTC] PHP   7. acf_render_block() /Users/lahay/Local Sites/kentro/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[04-Dec-2021 04:43:46 UTC] PHP   8. include() /Users/lahay/Local Sites/kentro/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[04-Dec-2021 04:43:46 UTC] PHP   9. get_template_part() /Users/lahay/Local Sites/kentro/app/public/wp-content/themes/tailpress-master/template-parts/blocks/media-block.php:64
+[04-Dec-2021 04:43:46 UTC] PHP  10. locate_template() /Users/lahay/Local Sites/kentro/app/public/wp-includes/general-template.php:204
+[04-Dec-2021 04:43:46 UTC] PHP  11. load_template() /Users/lahay/Local Sites/kentro/app/public/wp-includes/template.php:716
+[04-Dec-2021 04:43:46 UTC] PHP  12. require() /Users/lahay/Local Sites/kentro/app/public/wp-includes/template.php:772
+[04-Dec-2021 04:43:46 UTC] PHP Warning:  Illegal string offset 'target' in /Users/lahay/Local Sites/kentro/app/public/wp-content/themes/tailpress-master/template-parts/blocks/link-buttons.php on line 16
+[04-Dec-2021 04:43:46 UTC] PHP Stack trace:
+[04-Dec-2021 04:43:46 UTC] PHP   1. {main}() /Users/lahay/Local Sites/kentro/app/public/wp-admin/admin-ajax.php:0
+[04-Dec-2021 04:43:46 UTC] PHP   2. do_action() /Users/lahay/Local Sites/kentro/app/public/wp-admin/admin-ajax.php:187
+[04-Dec-2021 04:43:46 UTC] PHP   3. WP_Hook->do_action() /Users/lahay/Local Sites/kentro/app/public/wp-includes/plugin.php:470
+[04-Dec-2021 04:43:46 UTC] PHP   4. WP_Hook->apply_filters() /Users/lahay/Local Sites/kentro/app/public/wp-includes/class-wp-hook.php:327
+[04-Dec-2021 04:43:46 UTC] PHP   5. acf_ajax_fetch_block() /Users/lahay/Local Sites/kentro/app/public/wp-includes/class-wp-hook.php:303
+[04-Dec-2021 04:43:46 UTC] PHP   6. acf_rendered_block() /Users/lahay/Local Sites/kentro/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:597
+[04-Dec-2021 04:43:46 UTC] PHP   7. acf_render_block() /Users/lahay/Local Sites/kentro/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[04-Dec-2021 04:43:46 UTC] PHP   8. include() /Users/lahay/Local Sites/kentro/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:390
+[04-Dec-2021 04:43:46 UTC] PHP   9. get_template_part() /Users/lahay/Local Sites/kentro/app/public/wp-content/themes/tailpress-master/template-parts/blocks/media-block.php:64
+[04-Dec-2021 04:43:46 UTC] PHP  10. locate_template() /Users/lahay/Local Sites/kentro/app/public/wp-includes/general-template.php:204
+[04-Dec-2021 04:43:46 UTC] PHP  11. load_template() /Users/lahay/Local Sites/kentro/app/public/wp-includes/template.php:716
+[04-Dec-2021 04:43:46 UTC] PHP  12. require() /Users/lahay/Local Sites/kentro/app/public/wp-includes/template.php:772
+[12-Feb-2022 16:39:13 UTC] PHP Warning:  require(/Users/lahay/Local Sites/dotheshu/app/public/wp-includes/class-wp-theme-json-schema.php): failed to open stream: No such file or directory in /Users/lahay/Local Sites/dotheshu/app/public/wp-settings.php on line 173
+[12-Feb-2022 16:39:13 UTC] PHP Stack trace:
+[12-Feb-2022 16:39:13 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Feb-2022 16:39:13 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Feb-2022 16:39:13 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Feb-2022 16:39:13 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Feb-2022 16:39:13 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[12-Feb-2022 16:39:13 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[12-Feb-2022 16:39:13 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1192
+[12-Feb-2022 16:39:13 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1271
+[12-Feb-2022 16:39:13 UTC] PHP Fatal error:  require(): Failed opening required '/Users/lahay/Local Sites/dotheshu/app/public/wp-includes/class-wp-theme-json-schema.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/lahay/Local Sites/dotheshu/app/public/wp-settings.php on line 173
+[12-Feb-2022 16:39:13 UTC] PHP Stack trace:
+[12-Feb-2022 16:39:13 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Feb-2022 16:39:13 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Feb-2022 16:39:13 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Feb-2022 16:39:13 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Feb-2022 16:39:13 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[12-Feb-2022 16:39:13 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[12-Feb-2022 16:39:13 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1192
+[12-Feb-2022 16:39:13 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1271
+[13-Feb-2022 14:28:01 UTC] PHP Warning:  include(/Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/template-parts/blocks/content-mediablock-.php): failed to open stream: No such file or directory in /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/template-parts/blocks/media-block.php on line 47
+[13-Feb-2022 14:28:01 UTC] PHP Stack trace:
+[13-Feb-2022 14:28:01 UTC] PHP   1. {main}() /Users/lahay/Local Sites/dotheshu/app/public/wp-admin/admin-ajax.php:0
+[13-Feb-2022 14:28:01 UTC] PHP   2. do_action() /Users/lahay/Local Sites/dotheshu/app/public/wp-admin/admin-ajax.php:187
+[13-Feb-2022 14:28:01 UTC] PHP   3. WP_Hook->do_action() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/plugin.php:474
+[13-Feb-2022 14:28:01 UTC] PHP   4. WP_Hook->apply_filters() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/class-wp-hook.php:331
+[13-Feb-2022 14:28:01 UTC] PHP   5. acf_ajax_fetch_block() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/class-wp-hook.php:307
+[13-Feb-2022 14:28:01 UTC] PHP   6. acf_rendered_block() /Users/lahay/Local Sites/dotheshu/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:597
+[13-Feb-2022 14:28:01 UTC] PHP   7. acf_render_block() /Users/lahay/Local Sites/dotheshu/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[13-Feb-2022 14:28:01 UTC] PHP   8. block_render() /Users/lahay/Local Sites/dotheshu/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:376
+[13-Feb-2022 14:28:01 UTC] PHP   9. get_template_part() /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/inc/acf-blocks.php:230
+[13-Feb-2022 14:28:01 UTC] PHP  10. locate_template() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/general-template.php:204
+[13-Feb-2022 14:28:01 UTC] PHP  11. load_template() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/template.php:716
+[13-Feb-2022 14:28:01 UTC] PHP  12. require() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/template.php:772
+[13-Feb-2022 14:28:01 UTC] PHP Warning:  include(): Failed opening '/Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/template-parts/blocks/content-mediablock-.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/template-parts/blocks/media-block.php on line 47
+[13-Feb-2022 14:28:01 UTC] PHP Stack trace:
+[13-Feb-2022 14:28:01 UTC] PHP   1. {main}() /Users/lahay/Local Sites/dotheshu/app/public/wp-admin/admin-ajax.php:0
+[13-Feb-2022 14:28:01 UTC] PHP   2. do_action() /Users/lahay/Local Sites/dotheshu/app/public/wp-admin/admin-ajax.php:187
+[13-Feb-2022 14:28:01 UTC] PHP   3. WP_Hook->do_action() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/plugin.php:474
+[13-Feb-2022 14:28:01 UTC] PHP   4. WP_Hook->apply_filters() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/class-wp-hook.php:331
+[13-Feb-2022 14:28:01 UTC] PHP   5. acf_ajax_fetch_block() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/class-wp-hook.php:307
+[13-Feb-2022 14:28:01 UTC] PHP   6. acf_rendered_block() /Users/lahay/Local Sites/dotheshu/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:597
+[13-Feb-2022 14:28:01 UTC] PHP   7. acf_render_block() /Users/lahay/Local Sites/dotheshu/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[13-Feb-2022 14:28:01 UTC] PHP   8. block_render() /Users/lahay/Local Sites/dotheshu/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:376
+[13-Feb-2022 14:28:01 UTC] PHP   9. get_template_part() /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/inc/acf-blocks.php:230
+[13-Feb-2022 14:28:01 UTC] PHP  10. locate_template() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/general-template.php:204
+[13-Feb-2022 14:28:01 UTC] PHP  11. load_template() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/template.php:716
+[13-Feb-2022 14:28:01 UTC] PHP  12. require() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/template.php:772
+[13-Feb-2022 14:28:03 UTC] PHP Warning:  include(/Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/template-parts/blocks/content-mediablock-.php): failed to open stream: No such file or directory in /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/template-parts/blocks/media-block.php on line 47
+[13-Feb-2022 14:28:03 UTC] PHP Stack trace:
+[13-Feb-2022 14:28:03 UTC] PHP   1. {main}() /Users/lahay/Local Sites/dotheshu/app/public/wp-admin/admin-ajax.php:0
+[13-Feb-2022 14:28:03 UTC] PHP   2. do_action() /Users/lahay/Local Sites/dotheshu/app/public/wp-admin/admin-ajax.php:187
+[13-Feb-2022 14:28:03 UTC] PHP   3. WP_Hook->do_action() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/plugin.php:474
+[13-Feb-2022 14:28:03 UTC] PHP   4. WP_Hook->apply_filters() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/class-wp-hook.php:331
+[13-Feb-2022 14:28:03 UTC] PHP   5. acf_ajax_fetch_block() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/class-wp-hook.php:307
+[13-Feb-2022 14:28:03 UTC] PHP   6. acf_rendered_block() /Users/lahay/Local Sites/dotheshu/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:597
+[13-Feb-2022 14:28:03 UTC] PHP   7. acf_render_block() /Users/lahay/Local Sites/dotheshu/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[13-Feb-2022 14:28:03 UTC] PHP   8. block_render() /Users/lahay/Local Sites/dotheshu/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:376
+[13-Feb-2022 14:28:03 UTC] PHP   9. get_template_part() /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/inc/acf-blocks.php:230
+[13-Feb-2022 14:28:03 UTC] PHP  10. locate_template() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/general-template.php:204
+[13-Feb-2022 14:28:03 UTC] PHP  11. load_template() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/template.php:716
+[13-Feb-2022 14:28:03 UTC] PHP  12. require() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/template.php:772
+[13-Feb-2022 14:28:03 UTC] PHP Warning:  include(): Failed opening '/Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/template-parts/blocks/content-mediablock-.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/template-parts/blocks/media-block.php on line 47
+[13-Feb-2022 14:28:03 UTC] PHP Stack trace:
+[13-Feb-2022 14:28:03 UTC] PHP   1. {main}() /Users/lahay/Local Sites/dotheshu/app/public/wp-admin/admin-ajax.php:0
+[13-Feb-2022 14:28:03 UTC] PHP   2. do_action() /Users/lahay/Local Sites/dotheshu/app/public/wp-admin/admin-ajax.php:187
+[13-Feb-2022 14:28:03 UTC] PHP   3. WP_Hook->do_action() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/plugin.php:474
+[13-Feb-2022 14:28:03 UTC] PHP   4. WP_Hook->apply_filters() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/class-wp-hook.php:331
+[13-Feb-2022 14:28:03 UTC] PHP   5. acf_ajax_fetch_block() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/class-wp-hook.php:307
+[13-Feb-2022 14:28:03 UTC] PHP   6. acf_rendered_block() /Users/lahay/Local Sites/dotheshu/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:597
+[13-Feb-2022 14:28:03 UTC] PHP   7. acf_render_block() /Users/lahay/Local Sites/dotheshu/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[13-Feb-2022 14:28:03 UTC] PHP   8. block_render() /Users/lahay/Local Sites/dotheshu/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:376
+[13-Feb-2022 14:28:03 UTC] PHP   9. get_template_part() /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/inc/acf-blocks.php:230
+[13-Feb-2022 14:28:03 UTC] PHP  10. locate_template() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/general-template.php:204
+[13-Feb-2022 14:28:03 UTC] PHP  11. load_template() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/template.php:716
+[13-Feb-2022 14:28:03 UTC] PHP  12. require() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/template.php:772
+[13-Feb-2022 14:44:51 UTC] PHP Fatal error:  Uncaught Error: Class 'RegisterBlocks' not found in /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/inc/acf-blocks.php:260
+Stack trace:
+#0 /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/template-parts/blocks/posts-carousel.php(6): prepareGutenburgFields(NULL)
+#1 /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/template.php(772): require('/Users/lahay/Lo...')
+#2 /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/template.php(716): load_template('/Users/lahay/Lo...', false, Array)
+#3 /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#4 /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/inc/acf-blocks.php(250): get_template_part('/template-parts...')
+#5 /Users/lahay/Local Sites/dotheshu/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(376): block_render(Array, '', false, 2, Object(WP_Block))
+#6 /Users/lahay/ in /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/inc/acf-blocks.php on line 260
+[13-Feb-2022 14:46:47 UTC] PHP Fatal error:  Uncaught Error: Class 'RegisterBlocks' not found in /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/inc/acf-blocks.php:261
+Stack trace:
+#0 /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/template-parts/blocks/posts-carousel.php(6): prepareGutenburgFields(NULL)
+#1 /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/template.php(772): require('/Users/lahay/Lo...')
+#2 /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/template.php(716): load_template('/Users/lahay/Lo...', false, Array)
+#3 /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#4 /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/inc/acf-blocks.php(250): get_template_part('/template-parts...')
+#5 /Users/lahay/Local Sites/dotheshu/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(376): block_render(Array, '', false, 2, Object(WP_Block))
+#6 /Users/lahay/ in /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/inc/acf-blocks.php on line 261
+[13-Feb-2022 14:46:54 UTC] PHP Fatal error:  Uncaught Error: Class 'RegisterBlocks' not found in /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/inc/acf-blocks.php:261
+Stack trace:
+#0 /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/template-parts/blocks/posts-carousel.php(6): prepareGutenburgFields(NULL)
+#1 /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/template.php(772): require('/Users/lahay/Lo...')
+#2 /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/template.php(716): load_template('/Users/lahay/Lo...', false, Array)
+#3 /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#4 /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/inc/acf-blocks.php(250): get_template_part('/template-parts...')
+#5 /Users/lahay/Local Sites/dotheshu/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(376): block_render(Array, '', false, 2, Object(WP_Block))
+#6 /Users/lahay/ in /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/inc/acf-blocks.php on line 261
+[13-Feb-2022 14:54:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/template-parts/blocks/posts-carousel.php:44
+Stack trace:
+#0 /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/template.php(772): require()
+#1 /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/template.php(716): load_template('/Users/lahay/Lo...', false, Array)
+#2 /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/inc/acf-blocks.php(250): get_template_part('/template-parts...')
+#4 /Users/lahay/Local Sites/dotheshu/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(376): block_render(Array, '', false, 2, Object(WP_Block))
+#5 /Users/lahay/Local Sites/dotheshu/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(327): acf_render_block(Array, '', false, 2, Objec in /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/template-parts/blocks/posts-carousel.php on line 44
+[13-Feb-2022 15:31:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/template-parts/blocks/carousel.php on line 19
+[13-Feb-2022 15:31:44 UTC] PHP Stack trace:
+[13-Feb-2022 15:31:44 UTC] PHP   1. {main}() /Users/lahay/Local Sites/dotheshu/app/public/wp-admin/admin-ajax.php:0
+[13-Feb-2022 15:31:44 UTC] PHP   2. do_action() /Users/lahay/Local Sites/dotheshu/app/public/wp-admin/admin-ajax.php:187
+[13-Feb-2022 15:31:44 UTC] PHP   3. WP_Hook->do_action() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/plugin.php:474
+[13-Feb-2022 15:31:44 UTC] PHP   4. WP_Hook->apply_filters() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/class-wp-hook.php:331
+[13-Feb-2022 15:31:44 UTC] PHP   5. acf_ajax_fetch_block() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/class-wp-hook.php:307
+[13-Feb-2022 15:31:44 UTC] PHP   6. acf_rendered_block() /Users/lahay/Local Sites/dotheshu/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:597
+[13-Feb-2022 15:31:44 UTC] PHP   7. acf_render_block() /Users/lahay/Local Sites/dotheshu/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[13-Feb-2022 15:31:44 UTC] PHP   8. block_render() /Users/lahay/Local Sites/dotheshu/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:376
+[13-Feb-2022 15:31:44 UTC] PHP   9. get_template_part() /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/inc/acf-blocks.php:250
+[13-Feb-2022 15:31:44 UTC] PHP  10. locate_template() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/general-template.php:204
+[13-Feb-2022 15:31:44 UTC] PHP  11. load_template() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/template.php:716
+[13-Feb-2022 15:31:44 UTC] PHP  12. require() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/template.php:772
+[13-Feb-2022 15:31:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/template-parts/blocks/carousel.php on line 19
+[13-Feb-2022 15:31:45 UTC] PHP Stack trace:
+[13-Feb-2022 15:31:45 UTC] PHP   1. {main}() /Users/lahay/Local Sites/dotheshu/app/public/wp-admin/admin-ajax.php:0
+[13-Feb-2022 15:31:45 UTC] PHP   2. do_action() /Users/lahay/Local Sites/dotheshu/app/public/wp-admin/admin-ajax.php:187
+[13-Feb-2022 15:31:45 UTC] PHP   3. WP_Hook->do_action() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/plugin.php:474
+[13-Feb-2022 15:31:45 UTC] PHP   4. WP_Hook->apply_filters() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/class-wp-hook.php:331
+[13-Feb-2022 15:31:45 UTC] PHP   5. acf_ajax_fetch_block() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/class-wp-hook.php:307
+[13-Feb-2022 15:31:45 UTC] PHP   6. acf_rendered_block() /Users/lahay/Local Sites/dotheshu/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:597
+[13-Feb-2022 15:31:45 UTC] PHP   7. acf_render_block() /Users/lahay/Local Sites/dotheshu/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:327
+[13-Feb-2022 15:31:45 UTC] PHP   8. block_render() /Users/lahay/Local Sites/dotheshu/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php:376
+[13-Feb-2022 15:31:45 UTC] PHP   9. get_template_part() /Users/lahay/Local Sites/dotheshu/app/public/wp-content/themes/tailpress-master/inc/acf-blocks.php:250
+[13-Feb-2022 15:31:45 UTC] PHP  10. locate_template() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/general-template.php:204
+[13-Feb-2022 15:31:45 UTC] PHP  11. load_template() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/template.php:716
+[13-Feb-2022 15:31:45 UTC] PHP  12. require() /Users/lahay/Local Sites/dotheshu/app/public/wp-includes/template.php:772
+[03-May-2022 14:15:20 UTC] PHP Warning:  Division by zero in /Users/lahay/Local Sites/global-trust-alliance/app/public/wp-includes/blocks/site-logo.php on line 20
+[03-May-2022 14:15:20 UTC] PHP Stack trace:
+[03-May-2022 14:15:20 UTC] PHP   1. {main}() /Users/lahay/Local Sites/global-trust-alliance/app/public/index.php:0
+[03-May-2022 14:15:20 UTC] PHP   2. require() /Users/lahay/Local Sites/global-trust-alliance/app/public/index.php:17
+[03-May-2022 14:15:20 UTC] PHP   3. require_once() /Users/lahay/Local Sites/global-trust-alliance/app/public/wp-blog-header.php:19
+[03-May-2022 14:15:20 UTC] PHP   4. include() /Users/lahay/Local Sites/global-trust-alliance/app/public/wp-includes/template-loader.php:106
+[03-May-2022 14:15:20 UTC] PHP   5. get_the_block_template_html() /Users/lahay/Local Sites/global-trust-alliance/app/public/wp-includes/template-canvas.php:12
+[03-May-2022 14:15:20 UTC] PHP   6. do_blocks() /Users/lahay/Local Sites/global-trust-alliance/app/public/wp-includes/block-template.php:236
+[03-May-2022 14:15:20 UTC] PHP   7. render_block() /Users/lahay/Local Sites/global-trust-alliance/app/public/wp-includes/blocks.php:921
+[03-May-2022 14:15:20 UTC] PHP   8. WP_Block->render() /Users/lahay/Local Sites/global-trust-alliance/app/public/wp-includes/blocks.php:883
+[03-May-2022 14:15:20 UTC] PHP   9. render_block_core_template_part() /Users/lahay/Local Sites/global-trust-alliance/app/public/wp-includes/class-wp-block.php:255
+[03-May-2022 14:15:20 UTC] PHP  10. do_blocks() /Users/lahay/Local Sites/global-trust-alliance/app/public/wp-includes/blocks/template-part.php:132
+[03-May-2022 14:15:20 UTC] PHP  11. render_block() /Users/lahay/Local Sites/global-trust-alliance/app/public/wp-includes/blocks.php:921
+[03-May-2022 14:15:20 UTC] PHP  12. WP_Block->render() /Users/lahay/Local Sites/global-trust-alliance/app/public/wp-includes/blocks.php:883
+[03-May-2022 14:15:20 UTC] PHP  13. WP_Block->render() /Users/lahay/Local Sites/global-trust-alliance/app/public/wp-includes/class-wp-block.php:241
+[03-May-2022 14:15:20 UTC] PHP  14. WP_Block->render() /Users/lahay/Local Sites/global-trust-alliance/app/public/wp-includes/class-wp-block.php:241
+[03-May-2022 14:15:20 UTC] PHP  15. WP_Block->render() /Users/lahay/Local Sites/global-trust-alliance/app/public/wp-includes/class-wp-block.php:241
+[03-May-2022 14:15:20 UTC] PHP  16. render_block_core_site_logo() /Users/lahay/Local Sites/global-trust-alliance/app/public/wp-includes/class-wp-block.php:255
+[03-May-2022 14:15:20 UTC] PHP  17. get_custom_logo() /Users/lahay/Local Sites/global-trust-alliance/app/public/wp-includes/blocks/site-logo.php:26
+[03-May-2022 14:15:20 UTC] PHP  18. wp_get_attachment_image() /Users/lahay/Local Sites/global-trust-alliance/app/public/wp-includes/general-template.php:1093
+[03-May-2022 14:15:20 UTC] PHP  19. wp_get_attachment_image_src() /Users/lahay/Local Sites/global-trust-alliance/app/public/wp-includes/media.php:1029
+[03-May-2022 14:15:20 UTC] PHP  20. apply_filters() /Users/lahay/Local Sites/global-trust-alliance/app/public/wp-includes/media.php:992
+[03-May-2022 14:15:20 UTC] PHP  21. WP_Hook->apply_filters() /Users/lahay/Local Sites/global-trust-alliance/app/public/wp-includes/plugin.php:189
+[03-May-2022 14:15:20 UTC] PHP  22. {closure:/Users/lahay/Local Sites/global-trust-alliance/app/public/wp-includes/blocks/site-logo.php:16-22}() /Users/lahay/Local Sites/global-trust-alliance/app/public/wp-includes/class-wp-hook.php:309
+[10-May-2022 18:00:01 UTC] Flywheel::DatabaseConnection
+[10-May-2022 18:00:01 UTC] Flywheel::DatabaseConnection
+[10-May-2022 18:00:01 UTC] Flywheel::DatabaseConnection
+[10-May-2022 18:00:03 UTC] Flywheel::DatabaseConnection
+[10-May-2022 18:00:03 UTC] Flywheel::DatabaseConnection
+[13-Jun-2022 20:53:49 UTC] Flywheel::DatabaseConnection
+[19-Oct-2022 16:55:00 UTC] Flywheel::DatabaseConnection
+[19-Oct-2022 18:25:36 UTC] Flywheel::DatabaseConnection
+[21-Dec-2022 18:51:59 UTC] Flywheel::DatabaseConnection
+[21-Dec-2022 21:28:46 UTC] PHP Parse error:  syntax error, unexpected '$height' (T_VARIABLE), expecting ',' or ';' in /Users/nowmedia32/Local Sites/csek-v14/app/public/wp-content/themes/Csek/template-parts/blocks/block-header.php on line 114
+[21-Dec-2022 21:29:00 UTC] PHP Parse error:  syntax error, unexpected '$height' (T_VARIABLE), expecting ',' or ';' in /Users/nowmedia32/Local Sites/csek-v14/app/public/wp-content/themes/Csek/template-parts/blocks/block-header.php on line 114
+[21-Dec-2022 21:30:03 UTC] PHP Parse error:  syntax error, unexpected '$height' (T_VARIABLE), expecting ',' or ';' in /Users/nowmedia32/Local Sites/csek-v14/app/public/wp-content/themes/Csek/template-parts/blocks/block-header.php on line 114
+[22-Dec-2022 18:07:16 UTC] Flywheel::DatabaseConnection
+[22-Dec-2022 18:07:18 UTC] Flywheel::DatabaseConnection
+[05-Jan-2023 23:07:51 UTC] Flywheel::DatabaseConnection
+[05-Jan-2023 23:08:33 UTC] Flywheel::DatabaseConnection
+[05-Jan-2023 23:08:53 UTC] Flywheel::DatabaseConnection
+[07-Feb-2023 23:52:38 UTC] Flywheel::DatabaseConnection
+[07-Feb-2023 23:52:42 UTC] Flywheel::DatabaseConnection
+[13-Feb-2023 21:05:42 UTC] Flywheel::DatabaseConnection
+[13-Feb-2023 21:05:43 UTC] Flywheel::DatabaseConnection
+[14-Feb-2023 17:27:34 UTC] Flywheel::DatabaseConnection
+[14-Feb-2023 17:27:37 UTC] Flywheel::DatabaseConnection
+[15-Feb-2023 17:53:31 UTC] Flywheel::DatabaseConnection
+[15-Feb-2023 17:53:32 UTC] Flywheel::DatabaseConnection
+[27-Feb-2023 16:33:22 UTC] Flywheel::DatabaseConnection
+[27-Feb-2023 16:33:25 UTC] Flywheel::DatabaseConnection
+[28-Feb-2023 19:17:02 UTC] Flywheel::DatabaseConnection
+[28-Feb-2023 19:17:07 UTC] Flywheel::DatabaseConnection
+[28-Feb-2023 19:17:08 UTC] Flywheel::DatabaseConnection
+[08-Mar-2023 22:14:08 UTC] Flywheel::DatabaseConnection
+[13-Apr-2023 23:16:04 UTC] Flywheel::DatabaseConnection
+[13-Apr-2023 23:16:05 UTC] Flywheel::DatabaseConnection

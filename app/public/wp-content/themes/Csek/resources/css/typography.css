@@ -1,0 +1,33 @@
+h1,h2,h3,h4,h5 {
+	@apply font-heading font-bold pb-8;
+	line-height:1.1;
+	margin:0px;
+}
+
+h1 {
+	@apply text-7xl tracking-tight;
+}
+
+h2 {
+	@apply md:text-5xl tracking-tight;
+}
+
+h3 {
+	@apply text-3xl tracking-tight;
+}
+
+h4 {
+	@apply text-2xl;
+}
+
+h5 {
+	@apply text-lg
+}
+
+p,li,dd,dt {
+	@apply text-base font-body;
+}
+
+hr {
+	@apply my-8 w-20 mx-auto border-t-2 border-primary;
+}
